@@ -1,4 +1,5 @@
 import Head from "next/head";
+import EmbedAnchor from "../EmbedAnchor";
 
 export default function Episode({ children, frontMatter }) {
   return (
