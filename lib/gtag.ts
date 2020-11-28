@@ -1,4 +1,4 @@
-export const GA_ID = process.env.ga_id;
+export const GA_ID = process.env.gaId;
 export const pageview = (path) => {
   window.gtag("config", GA_ID, {
     page_path: path,
