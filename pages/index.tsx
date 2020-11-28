@@ -14,14 +14,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header/>
-      <Services/>
+      <Header />
+      <Services />
       <ul className={styles.episodeList}>
         {docsPages.reverse().map((page) => (
           <li key={page.__resourcePath} className={styles.listItem}>
             <Link href={page.__resourcePath.replace(/\.mdx$/, "")}>
               <a>
-                <img src={"/images/grad_"+(page.number%8)+".png"} width="120" className={styles.thumbnail}/>
+                <img
+                  src={"/images/grad_" + (page.number % 8) + ".png"}
+                  width="120"
+                  className={styles.thumbnail}
+                />
                 <div className={styles.number}>{page.number}</div>
                 <div className={styles.title}>{page.title}</div>
                 <div className={styles.description}>{page.description}</div>
@@ -34,7 +38,7 @@ export default function Home() {
           </li>
         ))}
       </ul>
-      <Copyright/>
+      <Copyright />
     </div>
   );
 }

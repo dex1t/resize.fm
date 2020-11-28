@@ -13,7 +13,7 @@ export default function Episode({ children, frontMatter }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header/>
+      <Header />
       <article className={styles.episodeDetail}>
         <h1 className={styles.title}>{frontMatter.title}</h1>
         <div class={styles.meta}>
@@ -21,11 +21,13 @@ export default function Episode({ children, frontMatter }) {
           <span className={styles.date}>{frontMatter.date}</span>
           <span className={styles.time}>{frontMatter.time}</span>
         </div>
-        <div className={styles.player}><EmbedAnchor src={frontMatter.src}></EmbedAnchor></div>
+        <div className={styles.player}>
+          <EmbedAnchor src={frontMatter.src}></EmbedAnchor>
+        </div>
         <p className={styles.description}>{frontMatter.description}</p>
         <div className={styles.contents}>{children}</div>
       </article>
-      <Footer/>
+      <Footer />
     </>
   );
 }
