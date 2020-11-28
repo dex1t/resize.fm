@@ -1,9 +1,9 @@
 import Head from "next/head";
 import styles from "../styles/index.module.scss";
 import Link from "next/link";
-import Header from "../components/partial/Header";
-import Services from "../components/partial/Services";
-import Copyright from "../components/partial/Copyright";
+import Header from "../components/Header";
+import Services from "../components/Services";
+import Copyright from "../components/Copyright";
 import { frontMatter as docsPages } from "./ep/*.mdx";
 
 export default function Home() {
