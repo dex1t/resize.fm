@@ -1,12 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import { GA_ID } from "../lib/gtag";
+import { GA_ID } from "../utils/gtag";
 
-class MyDocument extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
-  }
-
+export default class MyDocument extends Document {
   render() {
     return (
       <Html>
@@ -19,12 +14,12 @@ class MyDocument extends Document {
           <script
             dangerouslySetInnerHTML={{
               __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_ID}', {
-              page_path: window.location.pathname,
-            });
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_ID}', {
+                page_path: window.location.pathname,
+              });
           `,
             }}
           />
@@ -37,5 +32,3 @@ class MyDocument extends Document {
     );
   }
 }
-
-export default MyDocument;

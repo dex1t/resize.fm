@@ -3,7 +3,7 @@ import EmbedAnchor from "../EmbedAnchor";
 import styles from "../../styles/episode.module.scss";
 import Header from "../Header";
 import Footer from "../Footer";
-import { getEpNumber } from "../../lib/misc";
+import { getEpNumber } from "../../utils/misc";
 
 export default function Episode({ children, frontMatter }) {
   return (
