@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/index.module.scss";
 import Link from "next/link";
 import { frontMatter as docsPages } from "./ep/*.mdx";
 
