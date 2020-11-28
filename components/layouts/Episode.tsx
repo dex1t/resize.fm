@@ -15,11 +15,14 @@ export default function Episode({ children, frontMatter }) {
       </Head>
 
       <Header/>
-      <article className={styles.article}>
-        <h1>{frontMatter.title}</h1>
-        <EmbedAnchor src={frontMatter.src}></EmbedAnchor>
-        <p>{frontMatter.description}</p>
-        {children}
+      <article className="episode-detail">
+        <h1 className="episodeDetail-title">{frontMatter.title}</h1>
+        <span className="episodeDetail-number">{frontMatter.number}</span>
+        <span className="episodeDetail-date">{frontMatter.date}</span>
+        <span className="episodeDetail-time">{frontMatter.time}</span>
+        <div className="episodeDetail-player"><EmbedAnchor src={frontMatter.src}></EmbedAnchor></div>
+        <p className="episodeDetail-description">{frontMatter.description}</p>
+        <div className="episodeDetail-contents">{children}</div>
       </article>
       <Footer/>
     </>

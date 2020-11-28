@@ -16,11 +16,18 @@ export default function Home() {
 
       <Header/>
       <Services/>
-      <ul>
+      <ul className="episodeList">
         {docsPages.map((page) => (
-          <li key={page.__resourcePath}>
+          <li key={page.__resourcePath} className="episodeList-item">
             <Link href={page.__resourcePath.replace(/\.mdx$/, "")}>
-              <a>{page.title}</a>
+              <a>
+                <img src="" className="episodeList-item-thumbnail"/>
+                <span className="episodeList-item-number">{page.number}</span>
+                <span className="episodeList-item-title">{page.title}</span>
+                <span className="episodeList-item-description">{page.description}</span>
+                <span className="episodeList-item-date">{page.date}</span>
+                <span className="episodeList-item-time">{page.time}</span>
+              </a>
             </Link>
           </li>
         ))}
