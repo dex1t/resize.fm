@@ -1,10 +1,11 @@
-import Head from "next/head";
 import styles from "../styles/globals.module.scss";
+import Head from "next/head";
 import Link from "next/link";
 import Header from "../components/Header";
 import Services from "../components/Services";
 import Copyright from "../components/Copyright";
 import { frontMatter as docsPages } from "./ep/*.mdx";
+import { getEpNumber } from "../lib/misc";
 
 export default function Home() {
   return (
@@ -22,7 +23,9 @@ export default function Home() {
             <Link href={page.__resourcePath.replace(/\.mdx$/, "")}>
               <a>
                 <img
-                  src={"/images/grad_" + (page.number % 8) + ".png"}
+                  src={`/images/grad_${
+                    getEpNumber(page.__resourcePath) % 8
+                  }.png`}
                   width="120"
                   className={styles.thumbnail}
                 />
