@@ -1,6 +1,9 @@
 import Head from "next/head";
 import styles from "../styles/index.module.scss";
 import Link from "next/link";
+import Header from "../components/partial/Header";
+import Services from "../components/partial/Services";
+import Copyright from "../components/partial/Copyright";
 import { frontMatter as docsPages } from "./ep/*.mdx";
 
 export default function Home() {
@@ -11,7 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className={styles.title}>resize.fm</h1>
+      <Header/>
+      <Services/>
       <ul>
         {docsPages.map((page) => (
           <li key={page.__resourcePath}>
@@ -21,6 +25,7 @@ export default function Home() {
           </li>
         ))}
       </ul>
+      <Copyright/>
     </div>
   );
 }
