@@ -1,6 +1,48 @@
-.article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@import "variables";
+
+.episodeDetail {
+  max-width: $cotainer-width;
+  text-align: left;
+  margin: 64px auto;
+
+  .title {
+    line-height: 1.2;
+  }
+
+  .meta {
+    margin: 8px 0;
+    color: $color-lightgray;
+    font-size: 14px;
+
+    > span {
+      margin-right: 16px;
+    }
+
+    .number:before {
+       content: '#';
+    }
+  }
+
+  .player {
+    margin: 24px 0;
+  }
+
+  .description {
+    margin: 24px 0;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .contents {
+    font-size: 16px;
+    line-height: 1.8;
+
+    ul {
+      line-height: 1.2;
+
+      li {
+        margin: 16px 0;
+      }
+    }
+  }
 }
