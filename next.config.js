@@ -1,6 +1,7 @@
 const withMdxEnhanced = require('next-mdx-enhanced')
+const { PHASE_DEVELOPMENT_SERVER } = require('next/constants')
 
-module.exports = withMdxEnhanced({
+module.exports = (phase) => withMdxEnhanced({
   layoutPath: 'components/layouts',
   defaultLayout: true,
   fileExtensions: ['mdx'],
@@ -14,6 +15,6 @@ module.exports = withMdxEnhanced({
   reExportDataFetching: false,
 })({
   env: {
-    gaId: "G-7WXZ4R6Q6V"
+    googleAnalyticsId: phase === PHASE_DEVELOPMENT_SERVER ? 'G-7WXZ4R6Q6V' : 'G-DN8TM5SRB9'
   }
 })
