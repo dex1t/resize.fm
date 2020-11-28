@@ -8,8 +8,8 @@ export default function EmbedAnchor(props: Props) {
   return (
     <iframe
       src={`https://anchor.fm/resize/embed/episodes/${anchorSlug}`}
-      height="102px"
-      width="400px"
+      height="98px"
+      width="640px"
       frameBorder="0"
       scrolling="no"
     ></iframe>

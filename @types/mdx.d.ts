@@ -2,6 +2,10 @@ interface FrontMatter {
   __resourcePath: string;
   layout?: string;
   title: string;
+  description: string;
+  number: number;
+  date: string;
+  time: string;
 }
 
 declare module "*.mdx" {
