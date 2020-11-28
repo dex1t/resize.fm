@@ -1,10 +1,11 @@
-import Head from "next/head";
 import styles from "../styles/globals.module.scss";
+import Head from "next/head";
 import Link from "next/link";
 import Header from "../components/Header";
 import Services from "../components/Services";
 import Copyright from "../components/Copyright";
 import { frontMatter as docsPages } from "./ep/*.mdx";
+import { getEpNumber } from "../lib/misc";
 
 export default function Home() {
   return (
@@ -14,14 +15,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header/>
-      <Services/>
+      <Header />
+      <Services />
       <ul className={styles.episodeList}>
         {docsPages.reverse().map((page) => (
           <li key={page.__resourcePath} className={styles.listItem}>
             <Link href={page.__resourcePath.replace(/\.mdx$/, "")}>
               <a>
-                <img src={"/images/grad_"+(page.number%8)+".png"} width="120" className={styles.thumbnail}/>
+                <img
+                  src={`/images/grad_${
+                    getEpNumber(page.__resourcePath) % 8
+                  }.png`}
+                  width="120"
+                  className={styles.thumbnail}
+                />
                 <div className={styles.number}>{page.number}</div>
                 <div className={styles.title}>{page.title}</div>
                 <div className={styles.description}>{page.description}</div>
@@ -34,7 +41,7 @@ export default function Home() {
           </li>
         ))}
       </ul>
-      <Copyright/>
+      <Copyright />
     </div>
   );
 }

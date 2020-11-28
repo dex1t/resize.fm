@@ -12,4 +12,8 @@ module.exports = withMdxEnhanced({
     phase: 'prebuild|loader|both',
   },
   reExportDataFetching: false,
-})(/* your normal nextjs config */)
+})({
+  env: {
+    gaId: "G-7WXZ4R6Q6V"
+  }
+})
