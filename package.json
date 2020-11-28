@@ -12,7 +12,8 @@
     "next": "10.0.2",
     "next-mdx-enhanced": "^5.0.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "sass": "^1.29.0"
   },
   "devDependencies": {
     "@types/node": "^14.14.9",
