@@ -11,7 +11,6 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>resize.fm</title>
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="theme-color" content="#F7F7F7" />
         <meta
