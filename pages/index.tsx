@@ -64,7 +64,9 @@ export default function Home() {
                   width="120"
                   className={styles.thumbnail}
                 />
-                <div className={styles.number}>{page.number}</div>
+                <div className={styles.number}>
+                  {getEpNumber(page.__resourcePath)}
+                </div>
                 <div className={styles.title}>{page.title}</div>
                 <div className={styles.description}>{page.description}</div>
                 <div className={styles.meta}>
