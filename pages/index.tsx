@@ -20,32 +20,43 @@ export default function Index() {
               <li key={page.__resourcePath} className={styles.listItem}>
                 <Link href={formatPath(page.__resourcePath)}>
                   <a>
-                    <img
-                      src={`/images/grad_${
-                        getEpNumber(page.__resourcePath) % 8
-                      }.png`}
-                      width="120"
-                      className={styles.thumbnail}
-                    />
-                    <div className={styles.number}>
-                      {getEpNumber(page.__resourcePath)}
+                    <div className={styles.thumbnail}>
+                      <Image
+                        src={`/images/grad_${
+                          getEpNumber(page.__resourcePath) % 8
+                        }.png`}
+                        width={120}
+                        height={120}
+                        objectFit="cover"
+                      />
+                      <div className={styles.number}>
+                        {getEpNumber(page.__resourcePath)}
+                      </div>
                     </div>
-                    <div className={styles.title}>{page.title}</div>
-                    <div className={styles.description}>{page.description}</div>
-                    <ul className={styles.meta}>
-                      <li className={styles.date}>
-                        <Image
-                          src="/images/calendar.svg"
-                          width={12}
-                          height={12}
-                        />
-                        <span>{page.date}</span>
-                      </li>
-                      <li className={styles.time}>
-                        <Image src="/images/play.svg" width={12} height={12} />
-                        <span>{page.time}</span>
-                      </li>
-                    </ul>
+                    <div className={styles.contents}>
+                      <div className={styles.title}>{page.title}</div>
+                      <div className={styles.description}>
+                        {page.description}
+                      </div>
+                      <ul className={styles.meta}>
+                        <li className={styles.date}>
+                          <Image
+                            src="/images/calendar.svg"
+                            width={12}
+                            height={12}
+                          />
+                          <span>{page.date}</span>
+                        </li>
+                        <li className={styles.time}>
+                          <Image
+                            src="/images/play.svg"
+                            width={12}
+                            height={12}
+                          />
+                          <span>{page.time}</span>
+                        </li>
+                      </ul>
+                    </div>
                   </a>
                 </Link>
               </li>
