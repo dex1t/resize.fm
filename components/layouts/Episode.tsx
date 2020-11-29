@@ -3,63 +3,37 @@ import EmbedAnchor from "../EmbedAnchor";
 import styles from "../../styles/episode.module.scss";
 import Header from "../Header";
 import Footer from "../Footer";
-import { getEpNumber } from "../../utils/pageResource";
+import { getEpNumber, formatPath } from "../../utils/pageResource";
 
 export default function Episode({ children, frontMatter }) {
+  const epNum = getEpNumber(frontMatter.__resourcePath);
+  const epPath = formatPath(frontMatter.__resourcePath);
+
+  const title = `#${epNum} ${frontMatter.title} | resize.fm`;
+  const url = `https://resize.fm${epPath}`;
+
   return (
     <>
       <Head>
-        <title>{`#${getEpNumber(frontMatter.__resourcePath)} ${
-          frontMatter.title
-        } | resize.fm`}</title>
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <meta name="theme-color" content="#F7F7F7" />
+        <title key="title">{title}</title>
         <meta
-          name="keywords"
-          content="resizefm, podcast, リサイズ, エフエム, ポッドキャスト, design, service"
+          key="description"
+          name="description"
+          content={frontMatter.description}
         />
-        <meta name="description" content={frontMatter.description} />
-        <meta property="og:site_name" content="resize.fm" />
+        <meta key="og:url" property="og:url" content={url} />
+        <meta key="og:title" property="og:title" content={title} />
         <meta
-          property="og:url"
-          content={`https://resize.fm/${frontMatter.__resourcePath.replace(
-            /\.mdx$/,
-            ""
-          )}`}
+          key="og:description"
+          property="og:description"
+          content={frontMatter.description}
         />
+        <meta key="twitter:url" name="twitter:url" content={url} />
+        <meta key="tiwtter:title" name="twitter:title" content={title} />
         <meta
-          property="og:title"
-          content={`#${getEpNumber(frontMatter.__resourcePath)} ${
-            frontMatter.title
-          } | resize.fm`}
-        />
-        <meta property="og:description" content={frontMatter.description} />
-        <meta
-          property="og:image"
-          content="https://resize.fm/images/resizefm_ogp.png"
-        />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@resizefm" />
-        <meta
-          name="twitter:url"
-          content={`https://resize.fm/${frontMatter.__resourcePath.replace(
-            /\.mdx$/,
-            ""
-          )}`}
-        />
-        <meta
-          name="twitter:title"
-          content={`#${getEpNumber(frontMatter.__resourcePath)} ${
-            frontMatter.title
-          } | resize.fm`}
-        />
-        <meta name="twitter:description" content={frontMatter.description} />
-        <meta
-          name="twitter:image"
-          content="https://resize.fm/images/resizefm_ogp.png"
+          key="twitter:description"
+          name="twitter:description"
+          content={frontMatter.description}
         />
       </Head>
 
