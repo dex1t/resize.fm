@@ -12,7 +12,24 @@ export default function Home() {
     <div>
       <Head>
         <title>resize.fm</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#F7F7F7"/>
+        <meta name="keywords" content="resizefm, podcast, リサイズ, エフエム, ポッドキャスト, design, service"/>
+        <meta name="description" content="元山（@kudakurage）と出口（@dex1t）が最近気になっているサービスやデザイントピックスを取り上げてのんびり話すPodcastです。 #resizefm"/>
+        <meta property="og:site_name" content="resize.fm"/>
+        <meta property="og:url" content="https://resize.fm/"/>
+        <meta property="og:title" content="resize.fm"/>
+        <meta property="og:description" content="元山（@kudakurage）と出口（@dex1t）が最近気になっているサービスやデザイントピックスを取り上げてのんびり話すPodcastです。 #resizefm"/>
+        <meta property="og:image" content="https://resize.fm/images/resizefm_ogp.png"/>
+        <meta property="og:image:width" content="1200"/>
+        <meta property="og:image:height" content="630"/>
+        <meta property="og:type" content="website"/>
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:site" content="@resizefm"/>
+        <meta name="twitter:url" content="https://resize.fm/"/>
+        <meta name="twitter:title" content="resize.fm"/>
+        <meta name="twitter:description" content="元山（@kudakurage）と出口（@dex1t）が最近気になっているサービスやデザイントピックスを取り上げてのんびり話すPodcastです。 #resizefm"/>
+        <meta name="twitter:image" content="https://resize.fm/images/resizefm_ogp.png"/>
       </Head>
 
       <Header />
