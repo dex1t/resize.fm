@@ -14,11 +14,8 @@
       color: $color-blue;
     }
   }
-}
 
-.footer {
-  background: $color-palegray2;
-  padding: 32px 0;
+  @include mobile {
+    font-size: 12px;
+  }
 }
-
-@import "mobile";

@@ -1,4 +1,4 @@
-import styles from "../styles/globals.module.scss";
+import styles from "../styles/index.module.scss";
 import Link from "next/link";
 import Header from "../components/Header";
 import Services from "../components/Services";

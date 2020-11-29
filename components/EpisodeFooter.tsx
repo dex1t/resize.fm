@@ -1,6 +1,6 @@
 import Services from "./Services";
 import Copyright from "./Copyright";
-import styles from "../styles/globals.module.scss";
+import styles from "../styles/episode.module.scss";
 
 export default function EpisodeFooter() {
   return (
