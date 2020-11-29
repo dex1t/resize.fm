@@ -15,12 +15,13 @@
     color: $color-lightgray;
     font-size: 14px;
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
 
-    > div {
+    > li {
       display: flex;
       align-items: center;
       margin-right: 16px;
-      margin-bottom: 4px;
 
       span {
         margin-left: 3px;
@@ -47,6 +48,7 @@
     line-height: 1.8;
 
     ul {
+      list-style: disc;
       line-height: 1.2;
       padding-left: 24px;
 

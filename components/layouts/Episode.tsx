@@ -41,20 +41,20 @@ export default function Episode({ children, frontMatter }) {
       <Header />
       <article className={styles.episodeDetail}>
         <h1 className={styles.title}>{frontMatter.title}</h1>
-        <div className={styles.meta}>
-          <div className={styles.number}>
+        <ul className={styles.meta}>
+          <li className={styles.number}>
             <Image src="/images/sharp.svg" width={12} height={12} />
-            <span>{frontMatter.number}</span>
-          </div>
-          <div className={styles.date}>
+            <span>{epNum}</span>
+          </li>
+          <li className={styles.date}>
             <Image src="/images/calendar.svg" width={12} height={12} />
             <span>{frontMatter.date}</span>
-          </div>
-          <div className={styles.time}>
+          </li>
+          <li className={styles.time}>
             <Image src="/images/play.svg" width={12} height={12} />
             <span>{frontMatter.time}</span>
-          </div>
-        </div>
+          </li>
+        </ul>
         <div className={styles.player}>
           <EmbedAnchor src={frontMatter.src}></EmbedAnchor>
         </div>
