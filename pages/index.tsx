@@ -6,7 +6,7 @@ import Copyright from "../components/Copyright";
 import { frontMatter as docsPages } from "./ep/*.mdx";
 import { getEpNumber, formatPath } from "../utils/pageResource";
 
-export default function Home() {
+export default function Index() {
   return (
     <>
       <Header />
