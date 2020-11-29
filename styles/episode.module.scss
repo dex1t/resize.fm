@@ -14,18 +14,17 @@
     margin: 8px 0 4px;
     color: $color-lightgray;
     font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
 
-    > span {
-      display: inline-block;
+    > li {
+      display: flex;
+      align-items: center;
       margin-right: 16px;
-      margin-bottom: 4px;
 
-      img {
-        display: inline-block;
-        margin-bottom: -1px;
-        margin-right: 3px;
-        width: 12px;
-        height: 12px;
+      span {
+        margin-left: 3px;
       }
     }
   }
@@ -49,6 +48,7 @@
     line-height: 1.8;
 
     ul {
+      list-style: disc;
       line-height: 1.2;
       padding-left: 24px;
 
