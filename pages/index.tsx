@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Services from "../components/Services";
 import Copyright from "../components/Copyright";
 import { frontMatter as docsPages } from "./ep/*.mdx";
-import { getEpNumber, formatPath } from "../utils/misc";
+import { getEpNumber, formatPath } from "../utils/pageResource";
 
 export default function Home() {
   return (
