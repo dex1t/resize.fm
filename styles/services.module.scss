@@ -1,0 +1,82 @@
+@import "variables";
+
+.services {
+  max-width: $cotainer-width;
+  padding: 0 16px;
+  margin: 24px auto;
+  text-align: left;
+
+  .siteDescription {
+    font-size: 14px;
+    line-height: 1.8;
+    color: $color-gray;
+
+    a {
+      color: $color-lightgray;
+
+      &:hover {
+        color: $color-blue;
+      }
+    }
+  }
+
+  .buttons {
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .buttonItem {
+    display: inline-block;
+    position: relative;
+    background: $color-white;
+    border-radius: 8px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 38px;
+    padding-right: 16px;
+    margin: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    color: $color-lightgray;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+    transition-property: box-shadow, color;
+
+    @include mobile {
+      padding-left: 36px;
+      font-size: 12px;
+    }
+
+    .iconColor,
+    .iconMono {
+      position: absolute;
+      top: 11px;
+      left: 16px;
+      transition: 0.3s;
+      transition-property: opacity;
+
+      @include mobile {
+        top: 12px;
+        left: 16px;
+        width: 16px;
+      }
+    }
+
+    .iconColor {
+      opacity: 0;
+    }
+
+    &:hover {
+      color: $color-black;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+
+      .iconMono {
+        opacity: 0;
+      }
+
+      .iconColor {
+        opacity: 1;
+      }
+    }
+  }
+}

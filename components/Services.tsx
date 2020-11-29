@@ -1,4 +1,4 @@
-import styles from "../styles/globals.module.scss";
+import styles from "../styles/services.module.scss";
 
 export default function Services() {
   return (
