@@ -4,7 +4,7 @@ import GATag from "../components/GATag";
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="ja">
         <Head>
           <GATag />
         </Head>

@@ -3,6 +3,7 @@ import { AppProps } from "next/app";
 import { useRouter } from "next/router";
 import * as gtag from "../utils/gtag";
 import "../styles/globals.scss";
+import AppLayout from "../components/layouts/AppLayout";
 
 const App = ({ Component, pageProps }: AppProps) => {
   const router = useRouter();
@@ -17,7 +18,11 @@ const App = ({ Component, pageProps }: AppProps) => {
     };
   }, [router.events]);
 
-  return <Component {...pageProps} />;
+  return (
+    <AppLayout>
+      <Component {...pageProps} />
+    </AppLayout>
+  );
 };
 
 export default App;
