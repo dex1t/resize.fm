@@ -50,8 +50,8 @@ export default function Home() {
                 <div className={styles.title}>{page.title}</div>
                 <div className={styles.description}>{page.description}</div>
                 <div className={styles.meta}>
-                  <span className={styles.date}>{page.date}</span>
-                  <span className={styles.time}>{page.time}</span>
+                  <span className={styles.date}><img src="/images/calendar.svg" width="12"/>{page.date}</span>
+                  <span className={styles.time}><img src="/images/play.svg" width="12"/>{page.time}</span>
                 </div>
               </a>
             </Link>
