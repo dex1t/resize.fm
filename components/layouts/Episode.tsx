@@ -4,6 +4,7 @@ import styles from "../../styles/episode.module.scss";
 import Header from "../Header";
 import EpisodeFooter from "../EpisodeFooter";
 import { getEpNumber, formatPath } from "../../utils/pageResource";
+import Image from "next/image";
 
 export default function Episode({ children, frontMatter }) {
   const epNum = getEpNumber(frontMatter.__resourcePath);
@@ -41,18 +42,18 @@ export default function Episode({ children, frontMatter }) {
       <article className={styles.episodeDetail}>
         <h1 className={styles.title}>{frontMatter.title}</h1>
         <div className={styles.meta}>
-          <span className={styles.number}>
-            <img src="/images/sharp.svg" width="12" />
-            {frontMatter.number}
-          </span>
-          <span className={styles.date}>
-            <img src="/images/calendar.svg" width="12" />
-            {frontMatter.date}
-          </span>
-          <span className={styles.time}>
-            <img src="/images/play.svg" width="12" />
-            {frontMatter.time}
-          </span>
+          <div className={styles.number}>
+            <Image src="/images/sharp.svg" width={12} height={12} />
+            <span>{frontMatter.number}</span>
+          </div>
+          <div className={styles.date}>
+            <Image src="/images/calendar.svg" width={12} height={12} />
+            <span>{frontMatter.date}</span>
+          </div>
+          <div className={styles.time}>
+            <Image src="/images/play.svg" width={12} height={12} />
+            <span>{frontMatter.time}</span>
+          </div>
         </div>
         <div className={styles.player}>
           <EmbedAnchor src={frontMatter.src}></EmbedAnchor>
