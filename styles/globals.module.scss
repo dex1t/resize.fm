@@ -1,8 +1,6 @@
 @import "variables";
 
 .header {
-  background: url("/images/resizefm_background.png") no-repeat top center;
-  background-size: 1200px;
   height: 260px;
   text-align: center;
 
@@ -14,13 +12,21 @@
     a {
       color: $color-black;
       text-decoration: none;
-      text-shadow: 0 0 32px #ffffff;
+      text-shadow: 0 0 24px #ffffff, 0 0 48px #ffffff;
+      transition: 0.3s;
+      transition-property: text-shadow, color;
+
+      &:hover {
+        color: $color-darkgray;
+        text-shadow: 0 0 24px #ffffff, 0 0 48px #ffffff, 0 0 48px #ffffff;
+      }
     }
   }
 }
 
 .services {
   max-width: $cotainer-width;
+  padding: 0 16px;
   margin: 24px auto;
   text-align: left;
 
@@ -31,11 +37,15 @@
 
     a {
       color: $color-lightgray;
+
+      &:hover {
+        color: $color-blue;
+      }
     }
   }
 
   .buttons {
-    margin-top: 24px;
+    margin-top: 16px;
     text-align: center;
   }
 
@@ -48,7 +58,7 @@
     line-height: 40px;
     padding-left: 38px;
     padding-right: 16px;
-    margin: 0 8px;
+    margin: 8px;
     font-size: 14px;
     text-decoration: none;
     color: $color-lightgray;
@@ -88,7 +98,7 @@
   max-width: $cotainer-width;
   text-align: left;
   margin: 48px auto;
-  padding: 0;
+  padding: 0 16px;
 
   .listItem {
     margin: 16px 0;
@@ -123,6 +133,9 @@
       top: 0;
       left: 0;
       border-radius: 8px 0 0 8px;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
     }
 
     .number {
@@ -160,10 +173,19 @@
     .meta {
       font-size: 12px;
       color: $color-lightgray;
-    }
 
-    .time {
-      margin-left: 16px;
+      > span {
+        display: inline-block;
+        margin-right: 16px;
+
+        img {
+          display: inline-block;
+          margin-bottom: -1px;
+          margin-right: 3px;
+          width: 12px;
+          height: 12px;
+        }
+      }
     }
   }
 }
@@ -179,6 +201,7 @@
 
     &:hover {
       text-decoration: underline;
+      color: $color-blue;
     }
   }
 }
@@ -186,4 +209,73 @@
 .footer {
   background: $color-palegray2;
   padding: 32px 0;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    height: 160px;
+
+    h1 {
+      padding-top: 56px;
+      font-size: 40px;
+    }
+  }
+
+  .services .buttons .buttonItem {
+    padding-left: 36px;
+    font-size: 12px;
+
+    .iconColor,
+    .iconMono {
+      top: 12px;
+      left: 16px;
+      width: 16px;
+    }
+  }
+
+  .episodeList {
+    .listItem {
+      > a {
+        height: 80px;
+        background: $color-white;
+        padding-left: 88px;
+        padding-top: 8px;
+        padding-right: 8px;
+      }
+
+      .thumbnail {
+        width: 80px;
+        height: 80px;
+      }
+
+      .number {
+        font-size: 16px;
+        line-height: 16px;
+      }
+
+      .title {
+        font-size: 14px;
+        white-space: normal;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+
+      .description {
+        display: none;
+      }
+
+      .meta {
+        margin-top: 8px;
+
+        .time {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
 }

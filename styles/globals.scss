@@ -11,8 +11,12 @@ body {
 }
 
 body {
-  background: $color-palegray url("/images/bg_grad.png") repeat-x top center;
-  background-size: 1px;
+  background-color: $color-palegray;
+  background-image: url("/images/resizefm_background.png"),
+    url("/images/bg_grad.png");
+  background-position: top center, top center;
+  background-size: 1200px auto, 1px auto;
+  background-repeat: no-repeat, repeat-x;
   text-align: center;
 }
 
@@ -22,5 +26,11 @@ a {
 
   &:hover {
     text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-size: 800px auto, 1px auto;
   }
 }
