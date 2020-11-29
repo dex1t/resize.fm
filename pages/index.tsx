@@ -1,5 +1,6 @@
 import styles from "../styles/index.module.scss";
 import Link from "next/link";
+import Image from "next/image";
 import Header from "../components/Header";
 import Services from "../components/Services";
 import Copyright from "../components/Copyright";
@@ -31,16 +32,20 @@ export default function Index() {
                     </div>
                     <div className={styles.title}>{page.title}</div>
                     <div className={styles.description}>{page.description}</div>
-                    <div className={styles.meta}>
-                      <span className={styles.date}>
-                        <img src="/images/calendar.svg" width="12" />
-                        {page.date}
-                      </span>
-                      <span className={styles.time}>
-                        <img src="/images/play.svg" width="12" />
-                        {page.time}
-                      </span>
-                    </div>
+                    <ul className={styles.meta}>
+                      <li className={styles.date}>
+                        <Image
+                          src="/images/calendar.svg"
+                          width={12}
+                          height={12}
+                        />
+                        <span>{page.date}</span>
+                      </li>
+                      <li className={styles.time}>
+                        <Image src="/images/play.svg" width={12} height={12} />
+                        <span>{page.time}</span>
+                      </li>
+                    </ul>
                   </a>
                 </Link>
               </li>
