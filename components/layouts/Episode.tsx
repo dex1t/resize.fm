@@ -2,7 +2,7 @@ import Head from "next/head";
 import EmbedAnchor from "../EmbedAnchor";
 import styles from "../../styles/episode.module.scss";
 import Header from "../Header";
-import Footer from "../Footer";
+import EpisodeFooter from "../EpisodeFooter";
 import { getEpNumber, formatPath } from "../../utils/pageResource";
 
 export default function Episode({ children, frontMatter }) {
@@ -60,7 +60,7 @@ export default function Episode({ children, frontMatter }) {
         <p className={styles.description}>{frontMatter.description}</p>
         <div className={styles.contents}>{children}</div>
       </article>
-      <Footer />
+      <EpisodeFooter />
     </>
   );
 }
