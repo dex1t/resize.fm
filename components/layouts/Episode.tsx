@@ -13,6 +13,9 @@ export default function Episode({ children, frontMatter }) {
   const title = `#${epNum} ${frontMatter.title} | resize.fm`;
   const url = `https://resize.fm${epPath}`;
 
+  const anchorURL = frontMatter.src.split("/");
+  const anchorSlug = anchorURL[anchorURL.length - 1];
+
   return (
     <>
       <Head>
@@ -29,6 +32,11 @@ export default function Episode({ children, frontMatter }) {
           property="og:description"
           content={frontMatter.description}
         />
+        <meta name="twitter:card" content="player" />
+        <meta name="twitter:player" content={`https://anchor.fm/resize/embed/episodes/${anchorSlug}`} />
+        <meta name="twitter:player:width" content="400" />
+        <meta name="twitter:player:height" content="98" />
+
         <meta key="twitter:url" name="twitter:url" content={url} />
         <meta key="tiwtter:title" name="twitter:title" content={title} />
         <meta
