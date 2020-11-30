@@ -32,7 +32,7 @@ export default function Episode({ children, frontMatter }) {
           property="og:description"
           content={frontMatter.description}
         />
-        <meta name="twitter:card" content="player" />
+        <meta key="twitter:card" name="twitter:card" content="player" />
         <meta name="twitter:player" content={`https://anchor.fm/resize/embed/episodes/${anchorSlug}`} />
         <meta name="twitter:player:width" content="400" />
         <meta name="twitter:player:height" content="98" />
