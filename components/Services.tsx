@@ -14,7 +14,7 @@ export default function Services() {
         をご利用ください。
       </p>
       <div className={styles.buttons}>
-        <Link href="">
+        {/*<Link href="">
           <a className={styles.buttonItem}>
             <img
               src="/images/service_icon_mono_apple.png"
@@ -43,7 +43,7 @@ export default function Services() {
             />
             Google
           </a>
-        </Link>
+        </Link>*/}
         <Link href="https://open.spotify.com/show/7A4HxFxQ2Kr4pyJ0e3VEYj">
           <a className={styles.buttonItem}>
             <img
