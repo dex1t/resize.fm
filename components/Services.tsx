@@ -14,7 +14,7 @@ export default function Services() {
         をご利用ください。
       </p>
       <div className={styles.buttons}>
-        {/*<Link href="">
+        <Link href="https://podcasts.apple.com/jp/podcast/resize-fm/id1542320522">
           <a className={styles.buttonItem}>
             <img
               src="/images/service_icon_mono_apple.png"
@@ -26,10 +26,10 @@ export default function Services() {
               width="18"
               className={styles.iconColor}
             />
-            iTunes
+            Apple
           </a>
         </Link>
-        <Link href="">
+        <Link href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80MTZmMjA0OC9wb2RjYXN0L3Jzcw">
           <a className={styles.buttonItem}>
             <img
               src="/images/service_icon_mono_googlepodcast.png"
@@ -43,7 +43,7 @@ export default function Services() {
             />
             Google
           </a>
-        </Link>*/}
+        </Link>
         <Link href="https://open.spotify.com/show/7A4HxFxQ2Kr4pyJ0e3VEYj">
           <a className={styles.buttonItem}>
             <img
