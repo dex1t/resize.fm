@@ -5,15 +5,17 @@ import Image from "next/image";
 import Header from "../components/Header";
 import Services from "../components/Services";
 import Copyright from "../components/Copyright";
-import { frontMatter as docsPages } from "./ep/*.mdx";
-import { getEpNumber, formatPath } from "../utils/pageResource";
+import {
+  FrontMatter,
+  getSortedEpisodes,
+  getEpNumber,
+  formatPath,
+} from "../utils/pageResource";
 
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      pages: docsPages.sort((p1, p2) =>
-        p1.__resourcePath > p2.__resourcePath ? -1 : 1
-      ),
+      pages: getSortedEpisodes(),
     },
   };
 };
@@ -25,7 +27,7 @@ export default function Index({ pages }) {
       <main>
         <Services />
         <ul className={styles.episodeList}>
-          {pages.map((page) => (
+          {pages.map((page: FrontMatter) => (
             <li key={page.__resourcePath} className={styles.listItem}>
               <Link href={formatPath(page.__resourcePath)}>
                 <a>
