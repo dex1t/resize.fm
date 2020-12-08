@@ -16,5 +16,13 @@ module.exports = (phase) => withMdxEnhanced({
 })({
   env: {
     googleAnalyticsId: phase === PHASE_DEVELOPMENT_SERVER ? 'G-7WXZ4R6Q6V' : 'G-DN8TM5SRB9'
+  },
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.node = {
+        fs: 'empty'
+      }
+    }
+    return config
   }
 })
