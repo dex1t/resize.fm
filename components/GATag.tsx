@@ -1,4 +1,4 @@
-import { GA_ID } from "../utils/gtag";
+import { GA_ID } from "../lib/gtag";
 
 export default function GATag() {
   return (

@@ -10,7 +10,7 @@ import {
   getSortedEpisodes,
   getEpNumber,
   formatPath,
-} from "../utils/pageResource";
+} from "../lib/pageResource";
 
 export const getStaticProps: GetStaticProps = async () => {
   return {

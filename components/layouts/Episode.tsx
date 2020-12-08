@@ -3,7 +3,7 @@ import EmbedAnchor from "../EmbedAnchor";
 import styles from "../../styles/episode.module.scss";
 import Header from "../Header";
 import EpisodeFooter from "../EpisodeFooter";
-import { getEpNumber, formatPath } from "../../utils/pageResource";
+import { getEpNumber, formatPath } from "../../lib/pageResource";
 import Image from "next/image";
 
 export default function Episode({ children, frontMatter }) {
@@ -37,7 +37,10 @@ export default function Episode({ children, frontMatter }) {
           content={frontMatter.description}
         />
         <meta key="twitter:card" name="twitter:card" content="player" />
-        <meta name="twitter:player" content={`https://www.youtube.com/embed/${frontMatter.youtube}?controls=0`} />
+        <meta
+          name="twitter:player"
+          content={`https://www.youtube.com/embed/${frontMatter.youtube}?controls=0`}
+        />
         <meta name="twitter:player:width" content="640" />
         <meta name="twitter:player:height" content="360" />
       </Head>
