@@ -1,6 +1,7 @@
 interface FrontMatter {
   __resourcePath: string;
   layout?: string;
+  youtube: string;
   title: string;
   description: string;
   number: number;

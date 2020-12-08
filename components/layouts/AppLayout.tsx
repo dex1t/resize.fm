@@ -21,7 +21,7 @@ export default function AppLayout({ children }) {
         <meta name="twitter:image" content={ogp} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta name="twitter:card" content="summary" />
+        <meta key="twitter:card" name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@resizefm" />
 
         {/* require "key" props due to overwrite by layotus/Episode */}

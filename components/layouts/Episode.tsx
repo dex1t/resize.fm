@@ -36,6 +36,10 @@ export default function Episode({ children, frontMatter }) {
           name="twitter:description"
           content={frontMatter.description}
         />
+        <meta key="twitter:card" name="twitter:card" content="player" />
+        <meta name="twitter:player" content={`https://www.youtube.com/embed/${frontMatter.youtube}?controls=0`} />
+        <meta name="twitter:player:width" content="640" />
+        <meta name="twitter:player:height" content="360" />
       </Head>
 
       <Header />
