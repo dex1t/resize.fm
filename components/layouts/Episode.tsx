@@ -5,6 +5,7 @@ import Header from "../Header";
 import EpisodeFooter from "../EpisodeFooter";
 import { getEpNumber, formatPath } from "../../lib/pageResource";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Episode({ children, frontMatter }) {
   const epNum = getEpNumber(frontMatter.__resourcePath);
@@ -64,12 +65,30 @@ export default function Episode({ children, frontMatter }) {
             <Image src="/images/play.svg" width={12} height={12} />
             <span>{frontMatter.time}</span>
           </li>
+          <li>
+            <Link href="https://twitter.com/share?ref_src=twsrc%5Etfw">
+              <a class="twitter-share-button" data-hashtags="resizefm" data-show-count="false">
+                Tweet
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </a>
+            </Link>
+          </li>
         </ul>
         <div className={styles.player}>
           {frontMatter.src && <EmbedAnchor src={frontMatter.src}></EmbedAnchor>}
         </div>
         <p className={styles.description}>{frontMatter.description}</p>
         <div className={styles.contents}>{children}</div>
+        <div className={styles.contentsFooter}>
+          <p>
+            resize.fmへのご意見・ご感想はTwitterで
+            <Link href="https://twitter.com/search?q=%23resizefm&src=typed_query&f=live">
+              <a>#resizefm</a>
+            </Link>
+            をつけて投稿してください！
+          </p>
+          <p className={styles.subtle}>※ご意見・ご感想は配信内でご紹介させていただくことがあります</p>
+        </div>
       </article>
       <EpisodeFooter />
     </>
