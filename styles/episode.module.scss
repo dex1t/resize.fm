@@ -90,6 +90,17 @@
       }
     }
   }
+
+  .contentsFooter {
+    margin: 48px 0 0;
+    font-size: 16px;
+    line-height: 1.8;
+
+    .subtle {
+      font-size: 0.8em;
+      color: $color-gray;
+    }
+  }
 }
 
 .footer {

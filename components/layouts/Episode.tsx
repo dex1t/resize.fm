@@ -5,6 +5,7 @@ import Header from "../Header";
 import EpisodeFooter from "../EpisodeFooter";
 import { getEpNumber, formatPath } from "../../lib/pageResource";
 import Image from "next/image";
+import Link from "next/link";
 import { TwitterShareButton, TwitterIcon } from "react-share";
 
 export default function Episode({ children, frontMatter }) {
@@ -83,6 +84,18 @@ export default function Episode({ children, frontMatter }) {
         </div>
         <p className={styles.description}>{frontMatter.description}</p>
         <div className={styles.contents}>{children}</div>
+        <div className={styles.contentsFooter}>
+          <p>
+            resize.fmへのご意見・ご感想はTwitterで
+            <Link href="https://twitter.com/search?q=%23resizefm&src=typed_query&f=live">
+              <a>#resizefm</a>
+            </Link>
+            をつけて投稿してください！
+          </p>
+          <p className={styles.subtle}>
+            ※ご意見・ご感想は配信内でご紹介させていただくことがあります
+          </p>
+        </div>
       </article>
       <EpisodeFooter />
     </>
