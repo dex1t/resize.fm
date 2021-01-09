@@ -5,6 +5,7 @@ import Header from "../Header";
 import EpisodeFooter from "../EpisodeFooter";
 import { getEpNumber, formatPath } from "../../lib/pageResource";
 import Image from "next/image";
+import { TwitterShareButton, TwitterIcon } from "react-share";
 
 export default function Episode({ children, frontMatter }) {
   const epNum = getEpNumber(frontMatter.__resourcePath);
@@ -52,17 +53,29 @@ export default function Episode({ children, frontMatter }) {
       <article className={styles.episodeDetail}>
         <h1 className={styles.title}>{frontMatter.title}</h1>
         <ul className={styles.meta}>
-          <li className={styles.number}>
+          <li>
             <Image src="/images/sharp.svg" width={12} height={12} />
             <span>{epNum}</span>
           </li>
-          <li className={styles.date}>
+          <li>
             <Image src="/images/calendar.svg" width={12} height={12} />
             <span>{frontMatter.date}</span>
           </li>
-          <li className={styles.time}>
+          <li>
             <Image src="/images/play.svg" width={12} height={12} />
             <span>{frontMatter.time}</span>
+          </li>
+          <li>
+            <TwitterShareButton
+              url={url}
+              title={title}
+              hashtags={["resizefm"]}
+              related={["@resizefm"]}
+              className={styles.tweet}
+            >
+              <TwitterIcon size={18} />
+              <span>Tweet</span>
+            </TwitterShareButton>
           </li>
         </ul>
         <div className={styles.player}>
