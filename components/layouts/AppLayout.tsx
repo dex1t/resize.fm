@@ -17,11 +17,8 @@ export default function AppLayout({ children }) {
         <meta name="author" content="出口貴也, 元山和之" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="resize.fm" />
-        <meta property="og:image" content={ogp} />
-        <meta name="twitter:image" content={ogp} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta key="twitter:card" name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@resizefm" />
 
         {/* require "key" props due to overwrite by layotus/Episode */}
@@ -34,6 +31,8 @@ export default function AppLayout({ children }) {
           property="og:description"
           content={description}
         />
+        <meta key="og:image" property="og:image" content={ogp} />
+        <meta key="twitter:image" name="twitter:image" content={ogp} />
         <meta key="twitter:url" name="twitter:url" content={url} />
         <meta key="twitter:title" name="twitter:title" content="resize.fm" />
         <meta
@@ -41,6 +40,7 @@ export default function AppLayout({ children }) {
           name="twitter:description"
           content={description}
         />
+        <meta key="twitter:card" name="twitter:card" content="summary" />
       </Head>
       {children}
     </>
