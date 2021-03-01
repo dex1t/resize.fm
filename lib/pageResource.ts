@@ -5,7 +5,6 @@ export interface FrontMatter {
   __resourcePath: string;
   layout?: string;
   src: string;
-  youtube: string;
   title: string;
   description: string;
   date: string;
@@ -25,7 +24,6 @@ export const getSortedEpisodes = (): Array<FrontMatter> => {
     return {
       __resourcePath: path.join("ep", filename),
       src: frontMatter.src,
-      youtube: frontMatter.youtube,
       title: frontMatter.title,
       description: frontMatter.description,
       date: frontMatter.date,

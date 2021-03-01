@@ -13,7 +13,9 @@ export default function Episode({ children, frontMatter }) {
   const epPath = formatPath(frontMatter.__resourcePath);
 
   const title = `#${epNum} ${frontMatter.title} | resize.fm`;
-  const url = `https://resize.fm${epPath}`;
+  const baseUrl = `https://resize.fm`;
+  const epUrl = `${baseUrl}${epPath}`;
+  const thumbnailUrl = `${baseUrl}/thumbnails/${epNum}.jpg`;
 
   return (
     <>
@@ -24,30 +26,35 @@ export default function Episode({ children, frontMatter }) {
           name="description"
           content={frontMatter.description}
         />
-        <meta key="og:url" property="og:url" content={url} />
+        <meta key="og:url" property="og:url" content={epUrl} />
         <meta key="og:title" property="og:title" content={title} />
         <meta
           key="og:description"
           property="og:description"
           content={frontMatter.description}
         />
-        <meta key="twitter:url" name="twitter:url" content={url} />
+        <meta key="twitter:url" name="twitter:url" content={epUrl} />
         <meta key="tiwtter:title" name="twitter:title" content={title} />
         <meta
           key="twitter:description"
           name="twitter:description"
           content={frontMatter.description}
         />
-        <meta key="twitter:card" name="twitter:card" content="player" />
         <meta
-          name="twitter:player"
-          content={
-            frontMatter.youtube &&
-            `https://www.youtube.com/embed/${frontMatter.youtube}?controls=0`
-          }
+          key="twitter:card"
+          name="twitter:card"
+          content="summary_large_image"
         />
-        <meta name="twitter:player:width" content="640" />
-        <meta name="twitter:player:height" content="360" />
+        {frontMatter.existThumbnail && (
+          <>
+            <meta
+              key="twitter:image"
+              name="twitter:image"
+              content={thumbnailUrl}
+            />
+            <meta key="og:image" property="og:image" content={thumbnailUrl} />
+          </>
+        )}
       </Head>
 
       <Header />
@@ -68,7 +75,7 @@ export default function Episode({ children, frontMatter }) {
           </li>
           <li>
             <TwitterShareButton
-              url={url}
+              url={epUrl}
               title={title}
               hashtags={["resizefm"]}
               related={["@resizefm"]}
