@@ -1,5 +1,6 @@
 const withMdxEnhanced = require('next-mdx-enhanced')
 const { PHASE_DEVELOPMENT_SERVER } = require('next/constants')
+const fs = require("fs");
 
 module.exports = (phase) => withMdxEnhanced({
   layoutPath: 'components/layouts',
@@ -9,8 +10,10 @@ module.exports = (phase) => withMdxEnhanced({
   rehypePlugins: [],
   usesSrc: false,
   extendFrontMatter: {
-    process: (mdxContent, frontMatter) => {},
-    phase: 'prebuild|loader|both',
+    process: (mdxContent, frontMatter) => ({
+      "existThumbnail": fs.existsSync(`public/thumbnails/${parseInt(frontMatter.__resourcePath.match(/^ep\/([0-9]+)-/)[1])}.jpg`)
+    }),
+    phase: 'both',
   },
   reExportDataFetching: false,
 })({

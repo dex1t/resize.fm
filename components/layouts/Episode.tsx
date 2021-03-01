@@ -7,7 +7,6 @@ import { getEpNumber, formatPath } from "../../lib/pageResource";
 import Image from "next/image";
 import Link from "next/link";
 import { TwitterShareButton, TwitterIcon } from "react-share";
-import fs from "fs";
 
 export default function Episode({ children, frontMatter }) {
   const epNum = getEpNumber(frontMatter.__resourcePath);
@@ -18,7 +17,7 @@ export default function Episode({ children, frontMatter }) {
   const thumbnailPath = `/thumbnails/${epNum}.jpg`;
   const epUrl = `${baseUrl}${epPath}`;
 
-  const thumbnailUrl = fs.existsSync(`../../public${thumbnailPath}`)
+  const thumbnailUrl = frontMatter.existThumbnail
     ? `${baseUrl}${thumbnailPath}`
     : `${baseUrl}/images/resizefm_ogp.png`;
 
