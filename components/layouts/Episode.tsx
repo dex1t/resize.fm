@@ -7,13 +7,20 @@ import { getEpNumber, formatPath } from "../../lib/pageResource";
 import Image from "next/image";
 import Link from "next/link";
 import { TwitterShareButton, TwitterIcon } from "react-share";
+import fs from "fs";
 
 export default function Episode({ children, frontMatter }) {
   const epNum = getEpNumber(frontMatter.__resourcePath);
   const epPath = formatPath(frontMatter.__resourcePath);
 
   const title = `#${epNum} ${frontMatter.title} | resize.fm`;
-  const url = `https://resize.fm${epPath}`;
+  const baseUrl = `https://resize.fm`;
+  const thumbnailPath = `/thumbnails/${epNum}.jpg`;
+  const epUrl = `${baseUrl}${epPath}`;
+
+  const thumbnailUrl = fs.existsSync(`../../public${thumbnailPath}`)
+    ? `${baseUrl}${thumbnailPath}`
+    : `${baseUrl}/images/resizefm_ogp.png`;
 
   return (
     <>
