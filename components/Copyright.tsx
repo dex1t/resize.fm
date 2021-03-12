@@ -1,9 +1,11 @@
 import styles from "../styles/copyright.module.scss";
 
 export default function Copyright() {
+  const today = new Date();
+  const year = today.getFullYear();
   return (
     <div className={styles.copyright}>
-      ©2020 <a href="/">resize.fm</a>
+      ©{year} <a href="/">resize.fm</a>
     </div>
   );
 }
