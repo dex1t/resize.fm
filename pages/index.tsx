@@ -33,9 +33,7 @@ export default function Index({ pages }) {
                 <a>
                   <div className={styles.thumbnail}>
                     <Image
-                      src={`/images/grad_${
-                        getEpNumber(page.__resourcePath) % 8
-                      }.png`}
+                      src={page.squareThumbnail ? `/square_thumbnails/${getEpNumber(page.__resourcePath)}.jpg` : `/images/grad_${getEpNumber(page.__resourcePath) % 8}.png`}
                       width={120}
                       height={120}
                       objectFit="cover"

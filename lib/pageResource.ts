@@ -9,6 +9,7 @@ export interface FrontMatter {
   description: string;
   date: string;
   time: string;
+  squareThumbnail: boolean;
 }
 
 const epDir = path.join(process.cwd(), "pages/ep");
@@ -28,6 +29,7 @@ export const getSortedEpisodes = (): Array<FrontMatter> => {
       description: frontMatter.description,
       date: frontMatter.date,
       time: frontMatter.time,
+      squareThumbnail: frontMatter.squareThumbnail
     };
   });
 
