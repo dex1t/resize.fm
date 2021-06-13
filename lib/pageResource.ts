@@ -14,7 +14,9 @@ export interface FrontMatter {
 
 const epDir = path.join(process.cwd(), "pages/ep");
 export const getSortedEpisodes = (): Array<FrontMatter> => {
-  const fileNames = fs.readdirSync(epDir);
+  const fileNames = fs
+    .readdirSync(epDir)
+    .filter((file) => path.extname(file) == ".mdx");
 
   const allEpData = fileNames.map((filename) => {
     const fullPath = path.join(epDir, filename);
