@@ -9,12 +9,14 @@ export interface FrontMatter {
   description: string;
   date: string;
   time: string;
-  squareThumbnail: boolean;
+  squareThumbnailPath: string;
 }
 
 const epDir = path.join(process.cwd(), "pages/ep");
 export const getSortedEpisodes = (): Array<FrontMatter> => {
-  const fileNames = fs.readdirSync(epDir);
+  const fileNames = fs
+    .readdirSync(epDir)
+    .filter((file) => path.extname(file) == ".mdx");
 
   const allEpData = fileNames.map((filename) => {
     const fullPath = path.join(epDir, filename);
@@ -22,14 +24,21 @@ export const getSortedEpisodes = (): Array<FrontMatter> => {
     //Extracts contents of the MDX file
     const fileContents = fs.readFileSync(fullPath, "utf8");
     const frontMatter = matter(fileContents).data;
+    const resourcePath = path.join("ep", filename);
+    const squareThumbnailPath = `/square_thumbnails/${getEpNumber(
+      resourcePath
+    )}.jpg`;
+
     return {
-      __resourcePath: path.join("ep", filename),
+      __resourcePath: resourcePath,
       src: frontMatter.src,
       title: frontMatter.title,
       description: frontMatter.description,
       date: frontMatter.date,
       time: frontMatter.time,
-      squareThumbnail: frontMatter.squareThumbnail
+      squareThumbnailPath: fs.existsSync(`public/${squareThumbnailPath}`)
+        ? squareThumbnailPath
+        : `/images/grad_${getEpNumber(resourcePath) % 8}.png`,
     };
   });
 
