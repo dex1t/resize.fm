@@ -11,7 +11,7 @@ module.exports = (phase) => withMdxEnhanced({
   usesSrc: false,
   extendFrontMatter: {
     process: (mdxContent, frontMatter) => ({
-      "existThumbnail": fs.existsSync(`public/thumbnails/${parseInt(frontMatter.__resourcePath.match(/^ep\/([0-9]+)-/)[1])}.jpg`),
+      "existThumbnail": fs.existsSync(`public/thumbnails/${parseInt(frontMatter.__resourcePath.match(/^ep\/([0-9]+)-/)[1])}.jpg`)
     }),
     phase: 'both',
   },
