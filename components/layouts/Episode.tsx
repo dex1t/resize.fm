@@ -93,7 +93,11 @@ export default function Episode({ children, frontMatter }) {
         <div className={styles.contents}>{children}</div>
         <div className={styles.contentsFooter}>
           <p>
-            resize.fmへのご意見・ご感想はTwitterで
+            resize.fmへのご意見・ご感想は、
+            <Link href="https://forms.gle/hkHbCpdTfe54MSyq9">
+              <a>おたより（Googleフォーム）</a>
+            </Link>
+            で送っていただくか、Twitterで
             <Link href="https://twitter.com/search?q=%23resizefm&src=typed_query&f=live">
               <a>#resizefm</a>
             </Link>

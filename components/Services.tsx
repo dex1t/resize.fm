@@ -9,7 +9,9 @@ export default function Services() {
         <a href="https://twitter.com/dex1t">@dex1t</a>)
         が最近気になっているサービスやデザイントピックスを取り上げてのんびり話すPodcastです。毎週金曜日に配信します。
         <br />
-        感想や質問などは、Twitterでハッシュタグ{" "}
+        感想や質問などは、{" "}
+        <a href="https://forms.gle/hkHbCpdTfe54MSyq9">おたより（Googleフォーム）</a>{" "}
+        で送っていただくか、Twitterでハッシュタグ{" "}
         <a href="https://twitter.com/search?q=%23resizefm">#resizefm</a>{" "}
         をご利用ください。
       </p>
