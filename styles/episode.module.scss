@@ -79,6 +79,15 @@
     font-size: 16px;
     line-height: 1.8;
 
+    h1, h2, h3, h4, h5 {
+      margin: 1.5em 0 1em;
+      line-height: 1.4;
+    }
+
+    p {
+      margin: 1em 0;
+    }
+
     ul {
       list-style: disc;
       padding-left: 24px;
@@ -87,10 +96,18 @@
         margin: 16px 0;
       }
     }
+
+    hr {
+      margin: 2em 0;
+      border-top: 1px solid $color-border;
+    }
+
   }
 
   .contentsFooter {
-    margin: 48px 0 0;
+    margin: 40px 0 0;
+    padding-top: 40px;
+    border-top: 1px solid $color-border;
     font-size: 16px;
     line-height: 1.8;
 
