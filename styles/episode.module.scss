@@ -102,6 +102,12 @@
       border-top: 1px solid $color-border;
     }
 
+    iframe {
+      width: 100%;
+      border-radius: 8px;
+      background: $color-white;
+    }
+
   }
 
   .contentsFooter {
