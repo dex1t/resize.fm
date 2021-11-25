@@ -5,7 +5,7 @@
   text-align: center;
 
   h1 {
-    padding-top: 80px;
+    padding-top: 60px;
     font-size: 48px;
     letter-spacing: 2px;
 
@@ -21,14 +21,22 @@
         text-shadow: 0 0 24px #ffffff, 0 0 48px #ffffff, 0 0 48px #ffffff;
       }
     }
+
+    img {
+      display: inline-block;
+    }
   }
 
   @include mobile {
     height: 160px;
 
     h1 {
-      padding-top: 56px;
+      padding-top: 24px;
       font-size: 40px;
+
+      img {
+        width: 200px;
+      }
     }
   }
 }
