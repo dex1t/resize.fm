@@ -24,6 +24,12 @@
 
     img {
       display: inline-block;
+      transition: .15s;
+
+      &:hover {
+        opacity: .7;
+        cursor: pointer;
+      }
     }
   }
 
