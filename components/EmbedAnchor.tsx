@@ -7,7 +7,7 @@ export default function EmbedAnchor(props: Props) {
   const anchorSlug = anchorURL[anchorURL.length - 1];
   return (
     <iframe
-      src={`https://anchor.fm/resize/embed/episodes/${anchorSlug}`}
+      src={`https://podcasters.spotify.com/pod/show/resize/embed/episodes/${anchorSlug}`}
       height="98px"
       width="640px"
       frameBorder="0"
