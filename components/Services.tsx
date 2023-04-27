@@ -19,12 +19,12 @@ export default function Services() {
         <Link href="https://podcasts.apple.com/jp/podcast/resize-fm/id1542320522">
           <a className={styles.buttonItem}>
             <img
-              src="/images/service_icon_mono_apple.png"
+              src="/images/service_icon_mono_apple_podcast.png"
               width="18"
               className={styles.iconMono}
             />
             <img
-              src="/images/service_icon_color_apple.png"
+              src="/images/service_icon_color_apple_podcast.png"
               width="18"
               className={styles.iconColor}
             />
