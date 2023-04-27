@@ -61,6 +61,21 @@ export default function Services() {
             Spotify
           </a>
         </Link>
+        <Link href="https://music.amazon.co.jp/podcasts/b68f27de-365d-4584-8685-1ded2c65fb83/resizefm">
+          <a className={styles.buttonItem}>
+            <img
+              src="/images/service_icon_mono_amazon.png"
+              width="18"
+              className={styles.iconMono}
+            />
+            <img
+              src="/images/service_icon_color_amazon.png"
+              width="18"
+              className={styles.iconColor}
+            />
+            Amazon
+          </a>
+        </Link>
         <Link href="https://www.youtube.com/channel/UCT07wIyz95ZRXUIh0iwcoCQ">
           <a className={styles.buttonItem}>
             <img
@@ -89,6 +104,21 @@ export default function Services() {
               className={styles.iconColor}
             />
             Twitter
+          </a>
+        </Link>
+        <Link href="https://www.instagram.com/resizefm/">
+          <a className={styles.buttonItem}>
+            <img
+              src="/images/service_icon_mono_instagram.png"
+              width="18"
+              className={styles.iconMono}
+            />
+            <img
+              src="/images/service_icon_color_instagram.png"
+              width="18"
+              className={styles.iconColor}
+            />
+            Instagram
           </a>
         </Link>
       </div>
