@@ -4,6 +4,7 @@ import { getEpNumber } from "../utils/getEpNumber";
 import Header from "../components/Header.astro";
 import Copyright from "../components/Copyright.astro";
 import RichFooter from "../components/RichFooter.astro";
+import GATag from "../components/GATag.astro";
 
 interface Props {
   title?: string;
@@ -63,6 +64,7 @@ const ogpImageUrl = Astro.props.epSlug
 
     <meta name="twitter:image" content={ogpImageUrl} />
     <meta property="og:image" content={ogpImageUrl} />
+    <GATag />
   </head>
   <body>
     <Header />
@@ -70,54 +72,52 @@ const ogpImageUrl = Astro.props.epSlug
     <footer>
       {Astro.props.richFooter ? <RichFooter /> : <Copyright />}
     </footer>
-  </body>
-</html>
+  </body><style is:global lang="scss">
+    html,
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
+        "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium",
+        "Yu Gothic", Verdana, Meiryo, sans-serif;
+      line-height: 1.4;
+      color: $color-black;
+    }
 
-<style is:global lang="scss">
-  html,
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
-      "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic",
-      Verdana, Meiryo, sans-serif;
-    line-height: 1.4;
-    color: $color-black;
-  }
-
-  body {
-    background-color: $color-palegray;
-    background-image: url("/bg/header.png"), url("/bg/grad.png");
-    background-position:
-      top center,
-      top center;
-    background-size:
-      1200px auto,
-      1px auto;
-    background-repeat: no-repeat, repeat-x;
-    text-align: center;
-
-    @include mobile {
+    body {
+      background-color: $color-palegray;
+      background-image: url("/bg/header.png"), url("/bg/grad.png");
+      background-position:
+        top center,
+        top center;
       background-size:
-        800px auto,
+        1200px auto,
         1px auto;
+      background-repeat: no-repeat, repeat-x;
+      text-align: center;
+
+      @include mobile {
+        background-size:
+          800px auto,
+          1px auto;
+      }
     }
-  }
 
-  a {
-    color: $color-blue;
-    text-decoration: none;
+    a {
+      color: $color-blue;
+      text-decoration: none;
 
-    &:hover {
-      text-decoration: underline;
+      &:hover {
+        text-decoration: underline;
+      }
     }
-  }
 
-  h1 {
-    font-size: 2em;
-  }
+    h1 {
+      font-size: 2em;
+    }
 
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-</style>
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</html>
