@@ -1,3 +1,3 @@
-# :radio: resize.fm
+# 🎙️resize.fm
 
 https://resize.fm/
