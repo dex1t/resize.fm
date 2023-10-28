@@ -22,7 +22,7 @@ const canonicalUrl = Astro.props.epSlug
   ? `${canonicalBase}/ep/${Astro.props.epSlug}`
   : canonicalBase;
 const ogpImageUrl = Astro.props.epSlug
-  ? `${canonicalBase}//${getEpNumber(Astro.props.epSlug)}.jpg`
+  ? `${canonicalBase}/ogp/${getEpNumber(Astro.props.epSlug)}.jpg`
   : `${canonicalBase}/ogp.png`;
 
 const optimizedBg = await getImage({ src: globalBg, format: "avif" });
