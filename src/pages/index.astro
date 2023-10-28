@@ -1,20 +1,18 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
+import { getEpNumber } from "../utils/getEpNumber";
 
 import { getCollection, getEntries, getEntry } from "astro:content";
 const episodes = await getCollection("episode");
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="resize.fm">
   <main>
     <ul>
       {
         episodes
-          .sort(
-            (a, b) =>
-              parseInt(b.slug.split("-")[0]) - parseInt(a.slug.split("-")[0])
-          )
+          .sort((a, b) => getEpNumber(b.slug) - getEpNumber(a.slug))
           .map((ep) => (
             <li>
               <a href={`/ep/${ep.slug}`}>{ep.data.title}</a>
