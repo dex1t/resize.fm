@@ -2,11 +2,13 @@
 import "ress";
 import { getEpNumber } from "../utils/getEpNumber";
 import Header from "../components/Header.astro";
+import Copyright from "../components/Copyright.astro";
 
 interface Props {
   title?: string;
   description?: string;
   epSlug?: string;
+  richFooter?: boolean;
 }
 
 const title = Astro.props.title
@@ -63,6 +65,9 @@ const ogpImageUrl = Astro.props.epSlug
   <body>
     <Header />
     <slot />
+    <footer>
+      {Astro.props.richFooter ? <Copyright /> : <Copyright />}
+    </footer>
   </body>
 </html>
 

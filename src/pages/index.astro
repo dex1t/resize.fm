@@ -11,7 +11,7 @@ const episodes = await getCollection("episode");
 <Layout>
   <main>
     <Intro />
-    <ul>
+    <ul class="episodeList">
       {
         episodes
           .sort((a, b) => getEpNumber(b.slug) - getEpNumber(a.slug))
@@ -30,4 +30,10 @@ const episodes = await getCollection("episode");
   </main>
 </Layout>
 
-<style></style>
+<style lang="scss">
+  .episodeList {
+    max-width: $cotainer-width;
+    margin: 48px auto;
+    padding: 0 16px;
+  }
+</style>
