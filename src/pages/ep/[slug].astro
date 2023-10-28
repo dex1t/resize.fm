@@ -40,17 +40,18 @@ const { Content } = await episode.render();
         <Image src="/icons/play.svg" width={12} height={12} alt="time" />
         <span>{episode.data.time}</span>
       </li>
-      <li>
-        <!-- <TwitterShareButton
-          url={epUrl}
-          title={title}
-          hashtags={["resizefm"]}
-          related={["@resizefm"]}
-          class={tweet}
-        >
-          <TwitterIcon size={18} />
-          <span>Tweet</span>
-        </TwitterShareButton> -->
+      <li class="tweet">
+        <a
+          href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+          class="twitter-share-button"
+          data-hashtags="resizefm"
+          data-related="resizefm"
+          data-lang="en"
+          data-show-count="false">Tweet</a
+        ><script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"></script>
       </li>
     </ul>
     <div class="player">
@@ -103,37 +104,6 @@ const { Content } = await episode.render();
         span {
           margin-left: 3px;
         }
-      }
-    }
-
-    .tweet {
-      display: flex;
-      align-items: center;
-      width: 100%;
-      background-color: #1b95e0 !important;
-      padding: 0px 8px 0px 2px !important;
-      border-radius: 4px;
-      overflow: hidden;
-      outline: none;
-
-      rect {
-        fill: #1b95e0 !important;
-      }
-
-      &:hover {
-        background-color: #0c7abf !important;
-
-        rect {
-          fill: #0c7abf !important;
-        }
-      }
-
-      span {
-        color: $color-white;
-        margin-left: 0 !important;
-        font-size: 11px;
-        font-weight: 500;
-        font-family: "Helvetica Neue", Arial, sans-serif;
       }
     }
 
