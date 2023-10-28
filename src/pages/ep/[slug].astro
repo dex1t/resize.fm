@@ -1,0 +1,18 @@
+---
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const episodes = await getCollection("episode");
+  return episodes.map((episode) => ({
+    params: { slug: episode.slug },
+    props: { episode },
+  }));
+}
+
+const { episode } = Astro.props;
+const { Content } = await episode.render();
+
+console.log(Content);
+---
+
+<p>hoge</p>

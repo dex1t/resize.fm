@@ -17,7 +17,7 @@ const episodes = await getCollection("episode");
           )
           .map((ep) => (
             <li>
-              <a href={`/${ep.slug}`}>{ep.data.title}</a>
+              <a href={`/ep/${ep.slug}`}>{ep.data.title}</a>
             </li>
           ))
       }
