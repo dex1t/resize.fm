@@ -14,4 +14,5 @@ time: 73分58秒
 - [Spotify for Podcasters（Anchor）](https://podcasters.spotify.com/)
 
 ### Nintendo Switchのプリペイドカード番号入力UI
-![NINTENDO Switchのプリペイドカード番号入力UI](/ep_contents_images/132/switch.jpg)
+
+![NINTENDO Switchのプリペイドカード番号入力UI](/ep_contents/132/switch.jpg)

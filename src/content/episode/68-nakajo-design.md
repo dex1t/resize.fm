@@ -16,11 +16,12 @@ time: 62分53秒
 - [仲條正義がデザインした〈タクティクスデザイン〉の腕時計。 | POPEYE Web](https://popeyemagazine.jp/post-67066/)
 
 ## 作品集『仲條 NAKAJO』
+
 配信内で話している作品集『仲條 NAKAJO』の一部を抜粋してご紹介します。
-![花椿](/ep_contents_images/68/hanatsubaki.jpg)
+![花椿](/ep_contents/68/hanatsubaki.jpg)
 
-![Tactics Design ポスター](/ep_contents_images/68/tacticsdesign.jpg)
+![Tactics Design ポスター](/ep_contents/68/tacticsdesign.jpg)
 
-![Tactics Design ポスター](/ep_contents_images/68/tacticsdesign-c.jpg)
+![Tactics Design ポスター](/ep_contents/68/tacticsdesign-c.jpg)
 
-![資生堂ポスターカレンダー](/ep_contents_images/68/calendar.jpg)
+![資生堂ポスターカレンダー](/ep_contents/68/calendar.jpg)

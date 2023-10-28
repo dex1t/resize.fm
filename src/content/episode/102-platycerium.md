@@ -15,8 +15,8 @@ time: 54分43秒
 - [ようへい(@yohei1572) • Instagram写真と動画](https://www.instagram.com/yohei1572/)
 - [BARREL 公式サイト](https://www.barrelled.net/)
 
-![ヒリーの成長](/ep_contents_images/102/1.png)
+![ヒリーの成長](/ep_contents/102/1.png)
 
-![板付けしたビカクシダ](/ep_contents_images/102/2.jpg)
+![板付けしたビカクシダ](/ep_contents/102/2.jpg)
 
-![スパーバム](/ep_contents_images/102/3.jpeg)
+![スパーバム](/ep_contents/102/3.jpeg)

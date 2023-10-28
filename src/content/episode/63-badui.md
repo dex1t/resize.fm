@@ -7,8 +7,8 @@ time: 64分16秒
 ---
 
 - オープニングトーク：NetflixとPerfume
-    - [TVアニメ『東京リベンジャーズ』公式サイト](https://tokyo-revengers-anime.com/)
-    - [Perfume「Reframe Tour 2021」](https://www.perfume-web.jp/cam/reframetour2021/)
+  - [TVアニメ『東京リベンジャーズ』公式サイト](https://tokyo-revengers-anime.com/)
+  - [Perfume「Reframe Tour 2021」](https://www.perfume-web.jp/cam/reframetour2021/)
 - [失敗から学ぶユーザインタフェース 世界はBADUI（バッド・ユーアイ）であふれている：書籍案内｜技術評論社](https://gihyo.jp/book/2015/978-4-7741-7064-0)
 - [スペインの家電 - くらげだらけ](https://kudakurage.hatenadiary.com/entry/2015/09/27/145313)
 - [キャンセルのキャンセル - くらげだらけ](https://kudakurage.hatenadiary.com/entry/2015/12/17/215205)
@@ -17,10 +17,13 @@ time: 64分16秒
 - [Joplin](https://joplinapp.org/)
 
 ## BAD UI クイズ1
-![BAD UI 1 - 温水を出すにはどうする？](/ep_contents_images/63/badui1.jpg)
+
+![BAD UI 1 - 温水を出すにはどうする？](/ep_contents/63/badui1.jpg)
 
 ## BAD UI クイズ2
-![BAD UI 2 - シャワーを出すにはどうする？](/ep_contents_images/63/badui2.jpg)
+
+![BAD UI 2 - シャワーを出すにはどうする？](/ep_contents/63/badui2.jpg)
 
 ## BAD UI クイズ3
-![BAD UI 3 - シャワーを出すにはどうする？](/ep_contents_images/63/badui3.jpg)
+
+![BAD UI 3 - シャワーを出すにはどうする？](/ep_contents/63/badui3.jpg)
