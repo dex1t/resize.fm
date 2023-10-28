@@ -1,14 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
+import Intro from "../components/Intro.astro";
 import { getEpNumber } from "../utils/getEpNumber";
+import { getCollection } from "astro:content";
 
-import { getCollection, getEntries, getEntry } from "astro:content";
 const episodes = await getCollection("episode");
 ---
 
 <Layout>
   <main>
+    <Intro />
     <ul>
       {
         episodes

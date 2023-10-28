@@ -1,0 +1,71 @@
+---
+import { Image } from "astro:assets";
+---
+
+<header>
+  <h1>
+    <a href="/">
+      <Image
+        src="/brand/logo.png"
+        width={250}
+        height={147}
+        alt="resize.fm"
+        title="resize.fm"
+      />
+    </a>
+  </h1>
+</header>
+
+<style lang="scss">
+  header {
+    height: 260px;
+    text-align: center;
+
+    h1 {
+      padding-top: 60px;
+      font-size: 48px;
+      letter-spacing: 2px;
+
+      a {
+        color: $color-black;
+        text-decoration: none;
+        text-shadow:
+          0 0 24px #ffffff,
+          0 0 48px #ffffff;
+        transition: 0.3s;
+        transition-property: text-shadow, color;
+
+        &:hover {
+          color: $color-darkgray;
+          text-shadow:
+            0 0 24px #ffffff,
+            0 0 48px #ffffff,
+            0 0 48px #ffffff;
+        }
+      }
+
+      img {
+        display: inline-block;
+        transition: 0.15s;
+
+        &:hover {
+          opacity: 0.7;
+          cursor: pointer;
+        }
+      }
+    }
+
+    @include mobile {
+      height: 160px;
+
+      h1 {
+        padding-top: 24px;
+        font-size: 40px;
+
+        img {
+          width: 200px;
+        }
+      }
+    }
+  }
+</style>

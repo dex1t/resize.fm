@@ -1,9 +1,7 @@
 ---
 import "ress";
 import { getEpNumber } from "../utils/getEpNumber";
-import { getImage } from "astro:assets";
-import globalBg from "../images/resizefm_background.png";
-import globalBg2nd from "../images/bg_grad.png";
+import Header from "../components/Header.astro";
 
 interface Props {
   title?: string;
@@ -22,18 +20,15 @@ const canonicalUrl = Astro.props.epSlug
   ? `${canonicalBase}/ep/${Astro.props.epSlug}`
   : canonicalBase;
 const ogpImageUrl = Astro.props.epSlug
-  ? `${canonicalBase}/ogp/${getEpNumber(Astro.props.epSlug)}.jpg`
-  : `${canonicalBase}/ogp.png`;
-
-const optimizedBg = await getImage({ src: globalBg, format: "avif" });
-const optimizedBg2nd = await getImage({ src: globalBg2nd, format: "avif" });
+  ? `${canonicalBase}/ep_ogp/${getEpNumber(Astro.props.epSlug)}.jpg`
+  : `${canonicalBase}/brand/ogp.png`;
 ---
 
 <!doctype html>
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/brand/favicon.ico" />
     <meta name="theme-color" content="#F7F7F7" />
     <meta
       name="keywords"
@@ -65,9 +60,8 @@ const optimizedBg2nd = await getImage({ src: globalBg2nd, format: "avif" });
     <meta name="twitter:image" content={ogpImageUrl} />
     <meta property="og:image" content={ogpImageUrl} />
   </head>
-  <body
-    style={`background-image: url(${optimizedBg.src}), url(${optimizedBg2nd.src});`}
-  >
+  <body>
+    <Header />
     <slot />
   </body>
 </html>
@@ -84,6 +78,7 @@ const optimizedBg2nd = await getImage({ src: globalBg2nd, format: "avif" });
 
   body {
     background-color: $color-palegray;
+    background-image: url("/bg/header.png"), url("/bg/grad.png");
     background-position:
       top center,
       top center;
