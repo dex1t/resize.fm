@@ -1,0 +1,31 @@
+---
+const today = new Date();
+const year = today.getFullYear();
+---
+
+<section>
+  ©{year}
+  <a href="/"> resize.fm</a>
+</section>
+
+<style lang="scss">
+  section {
+    margin: 32px;
+    font-size: 14px;
+    color: $color-lightgray;
+
+    a {
+      color: $color-lightgray;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        color: $color-blue;
+      }
+    }
+
+    @include mobile {
+      font-size: 12px;
+    }
+  }
+</style>

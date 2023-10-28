@@ -1,0 +1,248 @@
+---
+import { Image } from "astro:assets";
+---
+
+<section class="services">
+  <p class="siteDescription">
+    元山 (<a href="https://twitter.com/kudakurage">@kudakurage</a>) と出口 (<a
+      href="https://twitter.com/dex1t">@dex1t</a
+    >)
+    が最近気になっているサービスやデザイントピックスを取り上げてのんびり話すポッドキャストです。毎週金曜日に配信します。
+
+
+    <br />
+     感想や質問などは、{" "}
+    <a href="https://forms.gle/hkHbCpdTfe54MSyq9">おたよりフォーム</a>{" "}
+     から送っていただくか、Twitterでハッシュタグ{" "}
+    <a href="https://twitter.com/search?q=%23resizefm">#resizefm</a>{" "}
+     をご利用ください。
+  </p>
+  <div class="buttons">
+    <a href="https://podcasts.apple.com/jp/podcast/resize-fm/id1542320522">
+      <span class="buttonItem">
+        <Image
+          src="/icons/service_icon_mono_apple_podcast.png"
+          width={18}
+          height={18}
+          alt="Apple Podcast"
+          class="iconMono"
+        />
+        <Image
+          src="/icons/service_icon_color_apple_podcast.png"
+          width={18}
+          height={18}
+          alt="Apple Podcast"
+          class="iconColor"
+        />
+         Apple
+      </span>
+    </a>
+    <a
+      href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80MTZmMjA0OC9wb2RjYXN0L3Jzcw"
+    >
+      <span class="buttonItem">
+        <Image
+          src="/icons/service_icon_mono_googlepodcast.png"
+          width="18"
+          height="18"
+          alt="Google Podcast"
+          class="iconMono"
+        />
+        <Image
+          src="/icons/service_icon_color_googlepodcast.png"
+          width="18"
+          height="18"
+          alt="Google Podcast"
+          class="iconColor"
+        />
+         Google
+      </span>
+    </a>
+    <a href="https://open.spotify.com/show/7A4HxFxQ2Kr4pyJ0e3VEYj">
+      <span class="buttonItem">
+        <Image
+          src="/icons/service_icon_mono_spotify.png"
+          width="18"
+          height="18"
+          alt="Spotify"
+          class="iconMono"
+        />
+        <Image
+          src="/icons/service_icon_color_spotify.png"
+          width="18"
+          height="18"
+          alt="Spotify"
+          class="iconColor"
+        />
+         Spotify
+      </span>
+    </a>
+    <a
+      href="https://music.amazon.co.jp/podcasts/b68f27de-365d-4584-8685-1ded2c65fb83/resizefm"
+    >
+      <span class="buttonItem">
+        <Image
+          src="/icons/service_icon_mono_amazon.png"
+          width="18"
+          height="18"
+          class="iconMono"
+          alt="Amazon"
+        />
+        <Image
+          src="/icons/service_icon_color_amazon.png"
+          width="18"
+          height="18"
+          class="iconColor"
+          alt="Amazon"
+        />
+         Amazon
+      </span>
+    </a>
+    <a href="https://www.youtube.com/channel/UCT07wIyz95ZRXUIh0iwcoCQ">
+      <span class="buttonItem">
+        <Image
+          src="/icons/service_icon_mono_youtube.png"
+          width="18"
+          height="18"
+          class="iconMono"
+          alt="YouTube"
+        />
+        <Image
+          src="/icons/service_icon_color_youtube.png"
+          width="18"
+          height="18"
+          class="iconColor"
+          alt="YouTube"
+        />
+         YouTube
+      </span>
+    </a>
+    <a href="https://twitter.com/resizefm">
+      <span class="buttonItem">
+        <Image
+          src="/icons/service_icon_mono_twitter.png"
+          width="18"
+          height="18"
+          class="iconMono"
+          alt="Twitter"
+        />
+        <Image
+          src="/icons/service_icon_color_twitter.png"
+          width="18"
+          height="18"
+          class="iconColor"
+          alt="Twitter"
+        />
+         Twitter
+      </span>
+    </a>
+    <a href="https://www.instagram.com/resizefm/">
+      <span class="buttonItem">
+        <Image
+          src="/icons/service_icon_mono_instagram.png"
+          width="18"
+          height="18"
+          class="iconMono"
+          alt="Instagram"
+        />
+        <Image
+          src="/icons/service_icon_color_instagram.png"
+          width="18"
+          height="18"
+          class="iconColor"
+          alt="Instagram"
+        />
+         Instagram
+      </span>
+    </a>
+  </div>
+</section>
+
+<style lang="scss">
+  .services {
+    max-width: $cotainer-width;
+    padding: 0 16px;
+    margin: 24px auto;
+    text-align: left;
+
+    .siteDescription {
+      font-size: 14px;
+      line-height: 1.8;
+      color: $color-gray;
+
+      a {
+        color: $color-lightgray;
+
+        &:hover {
+          color: $color-blue;
+        }
+      }
+    }
+
+    .buttons {
+      margin-top: 16px;
+      text-align: center;
+
+      @include mobile {
+        margin: 16px -16px 0;
+      }
+    }
+
+    .buttonItem {
+      display: inline-block;
+      position: relative;
+      background: $color-white;
+      border-radius: 8px;
+      height: 40px;
+      line-height: 40px;
+      padding-left: 38px;
+      padding-right: 16px;
+      margin: 8px;
+      font-size: 14px;
+      text-decoration: none;
+      color: $color-lightgray;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+      transition: 0.3s;
+      transition-property: box-shadow, color;
+
+      @include mobile {
+        padding-left: 32px;
+        padding-right: 12px;
+        font-size: 12px;
+        margin: 6px;
+      }
+
+      .iconColor,
+      .iconMono {
+        position: absolute;
+        top: 11px;
+        left: 16px;
+        transition: 0.3s;
+        transition-property: opacity;
+
+        @include mobile {
+          top: 12px;
+          left: 12px;
+          width: 16px;
+        }
+      }
+
+      .iconColor {
+        opacity: 0;
+      }
+
+      &:hover {
+        color: $color-black;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+
+        .iconMono {
+          opacity: 0;
+        }
+
+        .iconColor {
+          opacity: 1;
+        }
+      }
+    }
+  }
+</style>

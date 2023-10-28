@@ -1,0 +1,69 @@
+---
+src: https://podcasters.spotify.com/pod/show/resize/episodes/151-e29k78k
+title: ざっくり西洋美術史 —ピラミッドからスネ夫まで—
+description: 古代文明から現代に至るまでの西洋美術史をざっくりと解説し、今のアニメや漫画にどう繋がっているのかを話しました。
+date: 2023年9月22日（金）
+time: 112分53秒
+---
+
+- オープニングトーク：スーパー・ニンテンドー・ワールド
+  - [スーパー・ニンテンドー・ワールド™｜ユニバーサル・スタジオ・ジャパン｜USJ](https://www.usj.co.jp/web/ja/jp/areas/super-nintendo-world)
+- [いちばん親切な　西洋美術史／池上英洋 著川口清香 著／荒井咲紀 著 | 新星出版社](https://www.shin-sei.co.jp/np/isbn/978-4-405-07228-2/)
+- 参考画像・資料
+    - モザイク画
+        - [サンヴィターレ聖堂 モザイク画 - Google 検索](https://www.google.com/search?q=%E3%82%B5%E3%83%B3%E3%83%B4%E3%82%A3%E3%82%BF%E3%83%BC%E3%83%AC%E8%81%96%E5%A0%82+%E3%83%A2%E3%82%B6%E3%82%A4%E3%82%AF%E7%94%BB&tbm=isch)
+    - フレスコ画
+        - [ディオニソスの秘儀 - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%87%E3%82%A3%E3%82%AA%E3%83%8B%E3%82%BD%E3%82%B9%E3%81%AE%E7%A7%98%E5%84%80)
+    - 中世の美術・教会建築
+        - [ロマネスク様式 - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%AD%E3%83%9E%E3%83%8D%E3%82%B9%E3%82%AF%E6%A7%98%E5%BC%8F#imgrc=yz42Y9r4kbu3HM)
+    - テンペラ技法
+        - [ドゥッチョ・ディ・ブオニンセーニャ - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%89%E3%82%A5%E3%83%83%E3%83%81%E3%83%A7%E3%83%BB%E3%83%87%E3%82%A3%E3%83%BB%E3%83%96%E3%82%AA%E3%83%8B%E3%83%B3%E3%82%BB%E3%83%BC%E3%83%8B%E3%83%A3)
+    - ステンドグラス
+        - [美しき絵ガラスの聖母 - Google 検索](https://www.google.com/search?tbm=isch&q=%E7%BE%8E%E3%81%97%E3%81%8D%E7%B5%B5%E3%82%AC%E3%83%A9%E3%82%B9%E3%81%AE%E8%81%96%E6%AF%8D)
+    - ルネサンス
+        - [マザッチョ 楽園追放 - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%9E%E3%82%B6%E3%83%83%E3%83%81%E3%83%A7+%E6%A5%BD%E5%9C%92%E8%BF%BD%E6%94%BE#imgrc=z-9avbNEtFWTQM)
+        - [レオナルド・ダ・ヴィンチ - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%AC%E3%82%AA%E3%83%8A%E3%83%AB%E3%83%89%E3%83%BB%E3%83%80%E3%83%BB%E3%83%B4%E3%82%A3%E3%83%B3%E3%83%81#imgrc=2T2Nh5bZ9YM24M)
+        - [ラファエロ - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%A9%E3%83%95%E3%82%A1%E3%82%A8%E3%83%AD)
+        - [東方三博士の礼拝 - Google 検索](https://www.google.com/search?tbm=isch&q=%E6%9D%B1%E6%96%B9%E4%B8%89%E5%8D%9A%E5%A3%AB%E3%81%AE%E7%A4%BC%E6%8B%9D)
+    - マニエリスム
+        - [ガブリエル・デストレとその姉妹 - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%82%AC%E3%83%96%E3%83%AA%E3%82%A8%E3%83%AB%E3%83%BB%E3%83%87%E3%82%B9%E3%83%88%E3%83%AC%E3%81%A8%E3%81%9D%E3%81%AE%E5%A7%89%E5%A6%B9)
+    - バロック
+        - [無原罪の御宿り - Google 検索](https://www.google.com/search?tbm=isch&q=%E7%84%A1%E5%8E%9F%E7%BD%AA%E3%81%AE%E5%BE%A1%E5%AE%BF%E3%82%8A)
+        - [ロレートの聖母 - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%AD%E3%83%AC%E3%83%BC%E3%83%88%E3%81%AE%E8%81%96%E6%AF%8D)
+    - 静物画や風景画の始まり
+        - [ミケランジェロ 果物籠 - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%9F%E3%82%B1%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%A7%E3%83%AD+%E6%9E%9C%E7%89%A9%E7%B1%A0)
+        - [エジプトへの逃避 - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%82%A8%E3%82%B8%E3%83%97%E3%83%88%E3%81%B8%E3%81%AE%E9%80%83%E9%81%BF)
+    - オランダ・バロック
+        - [ワイン商人のギルド - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%AF%E3%82%A4%E3%83%B3%E5%95%86%E4%BA%BA%E3%81%AE%E3%82%AE%E3%83%AB%E3%83%89)
+        - [ワイクバイドゥールステーデの風車 - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%AF%E3%82%A4%E3%82%AF%E3%83%90%E3%82%A4%E3%83%89%E3%82%A5%E3%83%BC%E3%83%AB%E3%82%B9%E3%83%86%E3%83%BC%E3%83%87%E3%81%AE%E9%A2%A8%E8%BB%8A)
+    - フェルメール
+        - [フェルメール 地理学者 - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%95%E3%82%A7%E3%83%AB%E3%83%A1%E3%83%BC%E3%83%AB+%E5%9C%B0%E7%90%86%E5%AD%A6%E8%80%85)
+    - ロココ
+        - [マテュー・クリエール - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%9E%E3%83%86%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%AF%E3%83%AA%E3%82%A8%E3%83%BC%E3%83%AB)
+        - [ニコラ・ランクレ 庭の家 - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%8B%E3%82%B3%E3%83%A9%E3%83%BB%E3%83%A9%E3%83%B3%E3%82%AF%E3%83%AC+%E5%BA%AD%E3%81%AE%E5%AE%B6)
+        - [ジャン・オノレ・フラゴナール - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%BB%E3%82%AA%E3%83%8E%E3%83%AC%E3%83%BB%E3%83%95%E3%83%A9%E3%82%B4%E3%83%8A%E3%83%BC%E3%83%AB)
+    - 新古典主義・ロマン主義
+        - [ジャック・ルイ・ダヴィッド - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%83%AB%E3%82%A4%E3%83%BB%E3%83%80%E3%83%B4%E3%82%A3%E3%83%83%E3%83%89)
+        - [ドラクロワ 自由の女神 - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%89%E3%83%A9%E3%82%AF%E3%83%AD%E3%83%AF+%E8%87%AA%E7%94%B1%E3%81%AE%E5%A5%B3%E7%A5%9E)
+    - レアリスム
+        - [クールベ 水浴の女 - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%99+%E6%B0%B4%E6%B5%B4%E3%81%AE%E5%A5%B3)
+    - 印象派
+        - [モネ - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%A2%E3%83%8D)
+        - [ルノワール - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%AB%E3%83%8E%E3%83%AF%E3%83%BC%E3%83%AB)
+    - 後期印象派
+        - [ゴッホ - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%82%B4%E3%83%83%E3%83%9B)
+        - [セザンヌ - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%82%BB%E3%82%B6%E3%83%B3%E3%83%8C)
+        - [ムンク - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%A0%E3%83%B3%E3%82%AF)
+    - 現代
+        - [キュビズム - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%82%AD%E3%83%A5%E3%83%93%E3%82%BA%E3%83%A0)
+        - [未来派 - Google 検索](https://www.google.com/search?tbm=isch&q=%E6%9C%AA%E6%9D%A5%E6%B4%BE)
+        - [ダダイズム - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%83%80%E3%83%80%E3%82%A4%E3%82%BA%E3%83%A0)
+        - [スネ夫 - Google 検索](https://www.google.com/search?tbm=isch&q=%E3%82%B9%E3%83%8D%E5%A4%AB)
+- 直近の西洋美術展
+    - [「ゴッホと静物画―伝統から革新へ」 （SOMPO美術館） ｜Tokyo Art Beat](https://www.tokyoartbeat.com/events/-/Van-Gogh-and-Still-Life-From-Tradition-to-Innovation/9FE5F8B4/2023-10-17)
+    - [「パリ ポンピドゥーセンター　キュビスム展―美の革命 ピカソ、ブラックからドローネー、シャガールへ」 （国立西洋美術館） ｜Tokyo Art Beat](https://www.tokyoartbeat.com/events/-/The-Cubist-Revolution-An-Exhibition-from-the-Collection-of-the-Centre-Pompidou-Paris/DD504118/2023-10-03)
+    - [「ウィリアム・モリス　英国の風景とともにめぐるデザインの軌跡」 （岡山県立美術館） ｜Tokyo Art Beat](https://www.tokyoartbeat.com/events/-/William-Morris-Tracing-the-Path-of-Design-Alongside-the-Landscapes-of-Britain/D45518DF/2023-09-29)
+    - [「テート美術館展　光　― ターナー、印象派から現代へ」 （大阪中之島美術館） ｜Tokyo Art Beat](https://www.tokyoartbeat.com/events/-/Light-Works-from-the-Tate-Collection/nakanoshima-museum-of-art-osaka/2023-10-26)
+    - [「モネ、ルノワール　印象派の光」 （松岡美術館） ｜Tokyo Art Beat](https://www.tokyoartbeat.com/events/-/Monet-Renoir-The-Light-of-the-Impressionists/matsuoka-museum-of-art/2023-06-20)
+    - [「モネ 連作の情景」 （上野の森美術館） ｜Tokyo Art Beat](https://www.tokyoartbeat.com/events/-/Monet-Scenes-From-a-Series-of-Paintings/9D3C0ECB/2023-10-20)
+    - [イマーシブミュージアム | Immersive Museum](https://www.immersive-museum.jp/)

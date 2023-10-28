@@ -1,0 +1,39 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Intro from "../components/Intro.astro";
+import { getEpNumber } from "../utils/getEpNumber";
+import { getCollection } from "astro:content";
+import EpListItem from "../components/EpListItem.astro";
+
+const episodes = await getCollection("episode");
+---
+
+<Layout>
+  <main>
+    <Intro />
+    <ul class="episodeList">
+      {
+        episodes
+          .sort((a, b) => getEpNumber(b.slug) - getEpNumber(a.slug))
+          .map((ep) => (
+            <EpListItem
+              slug={ep.slug}
+              title={ep.data.title}
+              description={ep.data.description}
+              date={ep.data.date}
+              time={ep.data.time}
+              isPublished={!!ep.data.src}
+            />
+          ))
+      }
+    </ul>
+  </main>
+</Layout>
+
+<style lang="scss">
+  .episodeList {
+    max-width: $cotainer-width;
+    margin: 48px auto;
+    padding: 0 16px;
+  }
+</style>

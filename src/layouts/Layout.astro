@@ -1,0 +1,123 @@
+---
+import "ress";
+import { getEpNumber } from "../utils/getEpNumber";
+import Header from "../components/Header.astro";
+import Copyright from "../components/Copyright.astro";
+import RichFooter from "../components/RichFooter.astro";
+import GATag from "../components/GATag.astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+  epSlug?: string;
+  richFooter?: boolean;
+}
+
+const title = Astro.props.title
+  ? `${Astro.props.title} | resize.fm`
+  : "resize.fm";
+const description =
+  Astro.props.description ??
+  "元山（@kudakurage）と出口（@dex1t）が最近気になっているサービスやデザイントピックスを取り上げてのんびり話すポッドキャストです。 #resizefm";
+const canonicalBase = "https://resize.fm";
+const canonicalUrl = Astro.props.epSlug
+  ? `${canonicalBase}/ep/${Astro.props.epSlug}`
+  : canonicalBase;
+const ogpImageUrl = Astro.props.epSlug
+  ? `${canonicalBase}/ep_ogp/${getEpNumber(Astro.props.epSlug)}.jpg`
+  : `${canonicalBase}/brand/ogp.png`;
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="shortcut icon" href="/brand/favicon.ico" />
+    <meta name="theme-color" content="#F7F7F7" />
+    <meta
+      name="keywords"
+      content="resizefm, podcast, リサイズエフエム, ポッドキャスト"
+    />
+    <meta name="author" content="出口貴也, 元山和之" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="resize.fm" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:site" content="@resizefm" />
+
+    <title>{title}</title>
+    <meta property="og:title" content={title} />
+    <meta name="twitter:title" content={title} />
+
+    <meta name="description" content={description} />
+    <meta property="og:description" content={description} />
+    <meta name="twitter:description" content={description} />
+
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta name="twitter:url" content={canonicalUrl} />
+    <meta
+      name="twitter:card"
+      content={Astro.props.epSlug ? "summary_large_image" : "summary"}
+    />
+
+    <meta name="twitter:image" content={ogpImageUrl} />
+    <meta property="og:image" content={ogpImageUrl} />
+    <GATag />
+  </head>
+  <body>
+    <Header />
+    <slot />
+    <footer>
+      {Astro.props.richFooter ? <RichFooter /> : <Copyright />}
+    </footer>
+  </body><style is:global lang="scss">
+    html,
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
+        "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium",
+        "Yu Gothic", Verdana, Meiryo, sans-serif;
+      line-height: 1.4;
+      color: $color-black;
+    }
+
+    body {
+      background-color: $color-palegray;
+      background-image: url("/bg/header.png"), url("/bg/grad.png");
+      background-position:
+        top center,
+        top center;
+      background-size:
+        1200px auto,
+        1px auto;
+      background-repeat: no-repeat, repeat-x;
+      text-align: center;
+
+      @include mobile {
+        background-size:
+          800px auto,
+          1px auto;
+      }
+    }
+
+    a {
+      color: $color-blue;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</html>
