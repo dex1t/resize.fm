@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Intro from "../components/Intro.astro";
 import { getEpNumber } from "../utils/getEpNumber";
 import { getCollection } from "astro:content";
+import EpListItem from "../components/EpListItem.astro";
 
 const episodes = await getCollection("episode");
 ---
@@ -15,9 +16,14 @@ const episodes = await getCollection("episode");
         episodes
           .sort((a, b) => getEpNumber(b.slug) - getEpNumber(a.slug))
           .map((ep) => (
-            <li>
-              <a href={`/ep/${ep.slug}`}>{ep.data.title}</a>
-            </li>
+            <EpListItem
+              slug={ep.slug}
+              title={ep.data.title}
+              description={ep.data.description}
+              date={ep.data.date}
+              time={ep.data.time}
+              isPublished={!!ep.data.src}
+            />
           ))
       }
     </ul>
