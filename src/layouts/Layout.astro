@@ -1,0 +1,74 @@
+---
+import "ress";
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Astro description" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<style is:global lang="scss">
+  html,
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
+      "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic",
+      Verdana, Meiryo, sans-serif;
+    line-height: 1.4;
+    color: $color-black;
+  }
+
+  body {
+    background-color: $color-palegray;
+    background-image: url("/images/resizefm_background.png"),
+      url("/images/bg_grad.png");
+    background-position:
+      top center,
+      top center;
+    background-size:
+      1200px auto,
+      1px auto;
+    background-repeat: no-repeat, repeat-x;
+    text-align: center;
+
+    @include mobile {
+      background-size:
+        800px auto,
+        1px auto;
+    }
+  }
+
+  a {
+    color: $color-blue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+</style>
