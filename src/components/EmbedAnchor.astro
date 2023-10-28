@@ -1,0 +1,22 @@
+---
+interface Props {
+  src: string;
+}
+const anchorURL = Astro.props.src.split("/");
+const anchorSlug = anchorURL[anchorURL.length - 1];
+---
+
+<iframe
+  src={`https://podcasters.spotify.com/pod/show/resize/embed/episodes/${anchorSlug}`}
+  height="98px"
+  width="640px"
+  frameborder="0"
+  scrolling="no"></iframe>
+
+<style lang="scss">
+  iframe {
+    width: 100%;
+    border-radius: 8px;
+    background: $color-white;
+  }
+</style>

@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import { getEpNumber } from "../../utils/getEpNumber";
 import { Image } from "astro:assets";
+import EmbedAnchor from "../../components/EmbedAnchor.astro";
 
 export async function getStaticPaths() {
   const episodes = await getCollection("episode");
@@ -54,7 +55,7 @@ console.log(Content);
       </li>
     </ul>
     <div class="player">
-      <!-- {frontMatter.src && <EmbedAnchor src={frontMatter.src} />} -->
+      {episode.data.src && <EmbedAnchor src={episode.data.src} />}
     </div>
     <p class="description">{episode.data.description}</p>
     <!-- <div class="contents">{children}</div> -->
@@ -139,12 +140,6 @@ console.log(Content);
 
     .player {
       margin: 24px 0;
-
-      iframe {
-        width: 100%;
-        border-radius: 8px;
-        background: $color-white;
-      }
     }
 
     .description {
