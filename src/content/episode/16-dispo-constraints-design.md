@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/16-Dispo-er1j1o
 title: Dispoと制約のデザイン
 description: 最近話題の写真SNS「Dispo」を使ってみた感想や、ゲームや料理レシピにおける制約のデザインについて話しました。

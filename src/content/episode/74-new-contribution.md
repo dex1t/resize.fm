@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/74--SubTopics-e1ggs8j
 title: 新しい寄付 (SubTopics)
 description: サウナイキタイメンバーズ、Framer Sites、FigJam for iPad、今月のイベント情報やクリプト動向など、最近気になったサブトピックスを話しました。

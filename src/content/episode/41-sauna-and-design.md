@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/41-e15qtfa
 title: サウナとデザイン？
 description: 出口が最近行ったサウナのなかから、体験の新しさやデザイン性の高いサウナについて話しました。

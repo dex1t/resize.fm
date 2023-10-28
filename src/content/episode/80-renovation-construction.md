@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/80-e1ic7oe
 title: リフォーム日記 —施工編—
 description: 中古マンションを買ってリフォームに至るまでを話すシリーズの最終回。今回は施工中に起きた問題や、ホームサウナを作った話、リフォームの心構えなどを話しました。

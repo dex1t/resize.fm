@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/52--SubTopics-e19c96i
 title: 年末の足音 (SubTopics)
 description: Designshipで気になった講演、Jリーグの背番号VI、DJIの新製品、10月の仮想通貨動向やイベント情報など、最近気になったサブトピックスを話しました。

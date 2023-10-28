@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/91-Beaujolais-Nouveau-SubTopics-e1lpj3v
 title: Beaujolais Nouveau (SubTopics)
 description: カレンダーアプリ「Cron」やRICOH STAYTHEE、ソニーの新しいモーションロゴ、今月のイベント情報やクリプト動向など、最近気になったサブトピックスを話しました。

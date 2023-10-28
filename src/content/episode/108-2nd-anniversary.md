@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/108-e1r87dm
 title: ２周年 —湖のほとりで—
 description: resize.fmを始めて２周年ということで、２年目のエピソードなどを振り返りつつ、３年目でやってみたいことや次の一年の抱負などを話しました。

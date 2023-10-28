@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/37-CanVINO-e14e2qj
 title: おつまみ缶詰「CanVINO」のパッケージデザイン
 description: おつまみ缶詰「CanVINO」のパッケージデザインについて、どんなことを考えながら、どんなふうに作っていったのかを話しました。

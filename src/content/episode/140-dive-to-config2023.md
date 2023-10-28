@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/140-Dive-to-Config2023-e26l67v
 title: Dive to Config2023
 description: Config 2023のセッションを紹介しつつ、今回のFigmaのアップデートとともに今後どういう考え方を持っているのかなどを話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/69-Product-Lifetime-SubTopics-e1ercdo
 title: Product Lifetime (SubTopics)
 description: ポケモンアルセウスのUI、ピクセルアート、Gatherとhidane、TechCrunch Japanの終了、今月のイベント情報やクリプト動向など、最近気になったサブトピックスを話しました。

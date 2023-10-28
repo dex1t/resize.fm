@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/114-e1t4bkj
 title: ずるい仕事術
 description: 佐久間さんのずるい仕事術を読んで、組織の中でうまく働くための方法についてアレコレ話しました。

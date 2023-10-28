@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/130--SubTopics-e2321ba
 title: 概念的回転寿司 (SubTopics)
 description: iOSのPWA Push通知対応、顧客理解と顧客体験理解、Reflective UIと融けるUI、回転寿司の概念化、複業時代のカレンダー、今月のクリプト動向やイベント情報など最近気になったサブトピックスを話しました。

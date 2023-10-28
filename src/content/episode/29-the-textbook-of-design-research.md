@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/29-e1199j3
 title: デザインリサーチの教科書
 description: 書籍「デザインリサーチの教科書」を読んで、自分自身によるリサーチと他人によるリサーチの受け取り方の違い、ユーザーインタビューにビジネス職を巻き込む際の難しさなどについて話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/44-Designing-with-Code-e16mvod
 title: Designing with Code
 description: 「コードを書きながらデザインする」ための取り組みや、Framerの紹介、UIデザインツールの未来などについて話しました。

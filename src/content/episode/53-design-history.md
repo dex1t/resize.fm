@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/53-e19p1mg
 title: デザイン史概論
 description: 産業革命から始まるデザイン史の流れや世界の歴史との関係性、デジタル時代にもつながる話をしました。

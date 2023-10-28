@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/146-e287s4i
 title: プロジェクト・シン・エヴァンゲリオン
 description: 「プロジェクト・シン・エヴァンゲリオン」を読んでプロジェクトマネジメントあるあると照らし合わせながら、本の面白かったところを話しました。

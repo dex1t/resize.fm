@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/149-e2921hk
 title: 指針と共にデザインする
 description: お便りの紹介といただいたご質問やご相談にお答えしつつ、営業と協力してデザインをする方法やメンタルモデルの考え方、コンセプトの作り方などについて話しました。

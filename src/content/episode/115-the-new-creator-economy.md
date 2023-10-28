@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/115-NFT-e1tcqhg
 title: NFTが生んだ新しいアート
 description: 「THE NEW CREATOR ECONOMY」という本を読んで、PFPやCC0 NFT、On-chain/Generative Artなどクリプトアートの歴史を振り返りつつ、象徴的なプロジェクトを紹介しました。

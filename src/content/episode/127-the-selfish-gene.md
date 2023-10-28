@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/127-e21s85l
 title: 利己的な遺伝子の視点から見るAIと社会
 description: 世界的ベストセラー「利己的な遺伝子」を読んで、より低レベルな存在の利己的な生存戦略から見る世界の見え方や、文化、AI、サービスといったものに当てはめた考えについて話しました。

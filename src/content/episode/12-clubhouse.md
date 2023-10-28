@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/12-SNSClubhouse-epebhf
 title: 音声SNS「Clubhouse」ってどうなの？
 description: 最近話題の音声SNS「Clubhouse」やスーパー楕円、昔懐かしのTurntable.fm の話をしました。

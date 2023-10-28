@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/46-About-Face-3-e17eu9r
 title: About Face 3 — ユーザー理解とモデリング
 description: 「About Face 3」のチャプター4〜5を読んで、質的調査としてのインタビューや、ペルソナとゴール設定など、ユーザー理解とモデリング手法について話しました。

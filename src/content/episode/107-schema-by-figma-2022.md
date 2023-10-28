@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/107-Schema-by-Figma-2022-e1qo4v4
 title: Schema by Figma 2022
 description: デザインシステムをテーマにしたカンファレンス「Schema by Figma 東京」を振り返りつつ、Headless Design Systemやデザイントークン設計の難しさ、UIコンポーネントの捉え方などについて話しました。

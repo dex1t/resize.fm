@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/96-e1n6jsa
 title: サービスデザインと持続可能性
 description: 「サービスデザイン思考」という本を読んで、サービスデザインとは何なのか、UXデザインとの違いは何かについて話しました。

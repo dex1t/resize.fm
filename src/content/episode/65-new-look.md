@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/New-Looks-SubTopics-e1dcgjv
 title: New Looks (SubTopics)
 description: ダイナミックプライシングと価格フォント、SmartHRのDesign SystemやVisaのリブランディング、Twitter Blue、今月のクリプト動向など、最近気になったサブトピックスを話しました。

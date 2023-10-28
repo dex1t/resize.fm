@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/72-RINDA-e1fppg0
 title: クラフトビネガードリンク「RINDA」のデザイン（ゲスト：倉光さん）
 description: クラフトビネガードリンク「RINDA」のコンセプト設計やパッケージデザインについて、デザイナーの倉光美和さん（@transitkix）をゲストに迎えて話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/22-Notion-eude4g
 title: Notionと情報共有ツールのデザイン
 description: Notionの好きなところや会社で使う上での懸念、Headless CMS、情報共有ツールを今作るならどう設計するかなどについて話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/120-e1v277o
 title: ヴァージル・アブローのデザイン原則
 description: 書籍「“複雑なタイトルをここに”」と「ダイアローグ」を読んで、ファッションデザイナーであるヴァージル・アブローのデザイン原則について話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/89-e1l76ta
 title: ニヒリズムとテクノロジー
 description: ニーチェのニヒリズムの考え方から、テクノロジーに潜むニヒリズム的危険性とそれをどう考えるべきかという話をしました。

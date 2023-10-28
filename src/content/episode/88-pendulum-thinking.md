@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/88-e1kstb9
 title: デザインエンジニアリングと振り子思考
 description: 「デザイン・イノベーションの振り子」という本を紹介しつつ、デザインエンジニアリングにおける振り子思考の重要さ、組織内での評価の難しさやキャリア形成について話しました。

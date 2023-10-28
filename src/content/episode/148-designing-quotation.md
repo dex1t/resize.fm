@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/148-e28p6ri
 title: 見積もりのデザイン
 description: 書籍「人が増えても速くならない」を紹介しつつ、デジタルプロダクトにおける見積もりやプロジェクトマネジメントについて、思うことや実践していることを話しました。

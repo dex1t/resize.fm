@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/100-Ossan-fm-e1ockgt
 title: Ossan.fmのお二人に聞く「ものをつくるときに気をつけていること」
 description: Ossan.fmのお二人（長山さん、栗栖さん）をお呼びして、Ossan.fmのお話やお二人が「ものをつくるときに気をつけていること」についてお聞きしました。

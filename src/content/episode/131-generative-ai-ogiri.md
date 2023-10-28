@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/131-Generative-AI-e23h3ii
 title: Generative AI 大喜利
 description: 画像生成をはじめ生成系AI (Generative AI) について最近の流れをおさらいしつつ、サービス開発やデザインなど身近な仕事にどう使うかについて大喜利 (ブレスト) しました。

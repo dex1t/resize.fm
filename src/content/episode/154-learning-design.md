@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/154-e2agmgl
 title: デザインの学び方と教え方
 description: 「デザイン、学びのしくみ」という本を読んで、デザインを学んだり教えたりするときのポイントや、あらゆることを学ぶとき・教えるときの姿勢、心構えについて話しました。

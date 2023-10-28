@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/153-e2a6jds
 title: 銀行とデザイン
 description: 「銀行とデザイン」という本を読んで、大企業にデザインを浸透させる取り組みやその体制づくり、大企業ならではのデザインシステムについて話しました。

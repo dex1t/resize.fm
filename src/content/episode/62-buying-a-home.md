@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/62-e1cjuqk
 title: 無職、家を買う。
 description: 物件を見つけるときに使ったサービス、住宅ローン審査で苦労したことなど、東京での中古マンション購入事情について話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/141-Vision-Pro-e26t4p0
 title: Vision Pro大喜利
 description: これまでのXRデバイスに比べ、より日常生活で使うことを想定されたApple Vision Proが、実際どんなことに使えそうなのかを大喜利(ブレスト)しました。

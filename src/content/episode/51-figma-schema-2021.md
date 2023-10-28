@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/51-Figma-Schema-2021-e19447f
 title: Figma Schema 2021
 description: Figmaのオンラインイベント「Schema Conference 2021」を振り返りつつ、デザインシステムの開発と浸透に必要とされることを話しました。

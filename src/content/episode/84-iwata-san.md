@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/84-e1jlnsp
 title: 岩田聡さんとリーダー論
 description: 生前語っていたエピソードをまとめた「岩田さん」を読んで、任天堂元社長の岩田聡さんの生い立ちから、2つの会社を立て直したリーダー論などについて話しました。

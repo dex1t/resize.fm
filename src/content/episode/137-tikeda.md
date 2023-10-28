@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/137-e25php0
 title: 池田さんとデザインあれこれ話
 description: ゲストに池田さん（@tikeda）をお迎えして、著書の「縁の下のUIデザイン」の裏話やリスナーからのデザインに関するお悩み相談などについて話しました。

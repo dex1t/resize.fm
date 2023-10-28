@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/90-e1lf5g2
 title: デザイナーは〇〇すべき？
 description: デザイナーはコードが書けるべき、プロダクトマネジメントができるべき、上流にいくべき…など様々なべき論をどう考えるか、逆に敢えて諦めたことはあるか、などについて話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/5-2020-entu6v
 title: 2020年のベストアプリ
 description: 2020年のiOS/Androidのベストアプリや2020年の流行語などについて話しました。

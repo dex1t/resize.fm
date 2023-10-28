@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/77-e1hfa9o
 title: 評価と負債とデザインシステム
 description: デザイナー評価についてのお便りと、デザイン負債返却のためにデザインシステムを代替わりした仕事について話しました。

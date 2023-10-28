@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/103-Splatoon-e1pfn16
 title: Splatoonのデザインと上手くなるコツ
 description: Splatoonの開発経緯からデザイン的な考え方、また最新作Splatoon3の改善点にみるデザインの意図と上手くなるコツなどについて話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/151-e29k78k
 title: ざっくり西洋美術史 —ピラミッドからスネ夫まで—
 description: 古代文明から現代に至るまでの西洋美術史をざっくりと解説し、今のアニメや漫画にどう繋がっているのかを話しました。

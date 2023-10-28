@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/73-e1g4bes
 title: マイクロインタラクションから考えるマクロなデザイン
 description: 「マイクロインタラクション」という本を読んで、ボトムアップで考える体験デザインについて話しました。

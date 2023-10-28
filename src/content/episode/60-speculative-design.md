@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/60-e1c2ua4
 title: スペキュラティヴ・デザイン—問題解決から、問題提起へ。
 description: 「スペキュラティヴ・デザイン」という本を読んで、現在を考えるための未来のデザインについて話しました。

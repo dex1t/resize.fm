@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/48-e17vu1j
 title: ゲームとデザイン
 description: 雑誌「IDEA」No.395のゲームUI特集や、サイバーパンク2077の「ゲームさんぽ」を見たりしつつ、ゲームのデザインが他の分野の参考として優れているという話をしました。

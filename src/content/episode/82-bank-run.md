@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/82-Bank-Run-SubTopics-e1j3cfd
 title: Bank Run (SubTopics)
 description: Music Unityやアウトドア・ワーク、Twitter Blue、Noto Emoji、今月のイベント情報やクリプト動向など、最近気になったサブトピックスを話しました。

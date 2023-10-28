@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/102-e1p6m1o
 title: ビカクシダの魅力
 description: 出口がここ最近ハマっている観葉植物「ビカクシダ」について、その魅力や育て方、情報源などを話しました。

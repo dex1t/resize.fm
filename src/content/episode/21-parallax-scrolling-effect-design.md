@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/21-Parallax-Scrolling-effect-design-ets2lg
 title: (Parallax) Scrolling effect design
 description: スクロール操作にエフェクトをつけているWebサイトを見ながら、知っておくべきその問題点などについて話しました。

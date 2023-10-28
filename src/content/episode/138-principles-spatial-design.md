@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/138-Spatial-UI-e262o7b
 title: Spatial UIのデザイン原則
 description: Apple Vision Proのおさらいをしつつ、WWDC23のSpatial Design系セッションを見て気になったことや、今後のUIデザインに求められそうなことを話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/133-On-Chain-Generative-Art-e24a9qa
 title: (On-Chain) Generative Artと偶発性
 description: GWに開催されたイベント「Bright Moments Tokyo」を紹介しつつ、Generative Artの歴史やOn-Chain Generative Artの面白さ、楽しみ方、よく使うサービスなどについて話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/15-DIY-eqjhrv
 title: 賃貸DIY
 description: デスクや棚づくり、壁紙、無垢材フローリングなど、賃貸マンションでのDIYについて話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/122-e1vmd0v
 title: ファンとつくるデザイン
 description: モノも情報も過多な時代に長く付き合っていくためのデザイン、ファンに寄り添いファンとつくるためのデザインについて今の所考えていることなどを話しました。

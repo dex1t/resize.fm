@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/33-e12rni5
 title: 「具体と抽象」と大喜利
 description: 書籍「具体と抽象」を読んで、サービスづくりにおける具体と抽象の事例を話しつつ、「大喜利」とのみえない関係性について話しました。

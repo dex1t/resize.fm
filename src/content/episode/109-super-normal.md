@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/109-e1rjkpq
 title: ふつうのデザイン
 description: 深澤直人さんの「ふつう」を読んで、いろいろなモノのふつうのデザインについて考えてみました。

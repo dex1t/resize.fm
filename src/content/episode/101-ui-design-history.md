@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/101-UI-e1oshng
 title: ざっくりUIデザインの歴史
 description: お便りを紹介しつつ、ご質問いただいたUI/UXデザインの歴史と重要なヒト・モノ・コトなどをざっくり振り返って話しました。

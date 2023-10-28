@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/128-e228jq0
 title: ちいさくはじめるデザインシステム
 description: 「ちいさくはじめるデザインシステム」という本を読んで、SmartHR社でのデザインシステムの作り方や広め方、出口と元山が関わったクックパッド社のデザインシステムなどについて話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/147--SubTopics-e28g8mn
 title: 禅問答 (SubTopics)
 description: イーロン・マスクとのニアミス、HOMMAとカームテクノロジー、禅問答の傾向と対策、薄くないアイスコーヒーを作る方法、今月のクリプト動向やイベント情報など最近気になったサブトピックスを話しました。

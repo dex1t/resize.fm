@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/105-e1q6pae
 title: あらためて読む「誰のためのデザイン?」
 description: 「誰のためのデザイン？（増補・改訂版）」の概要を紹介しつつ、この本が書かれた時代背景、ドナルド・ノーマンの考えの変遷、アフォーダンスとシグニファイアの関係性などについて話しました。

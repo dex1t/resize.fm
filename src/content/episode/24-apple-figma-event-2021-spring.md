@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/24-AppleFigma-evet7a
 title: AppleとFigmaの次の一手は？
 description: 2021年春のAppleのイベントとFigmaのデザインカンファレンスConfig 2021の内容を話しながら、今後AppleとFigmaがどんなところを狙っているのかを考察し、予想してみました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/99-The-Merge-e1o67mb
 title: The Merge (SubTopics)
 description: AdobeのFigma買収、Zenlyのクローズ、Appleイベント、日本ゲーム大賞、今月のクリプト動向など、最近気になったサブトピックスを話しました。

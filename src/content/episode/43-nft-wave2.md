@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/43-NFT-Wave-2-SubTopics-e16cc7u
 title: NFT Wave 2 (SubTopics)
 description: Spotify Music+Talk, Safari 新UIのその後、最近のメルカリ、SNSとインフルエンサー、8月の仮想通貨動向など、最近気になったサブトピックスを話しました。

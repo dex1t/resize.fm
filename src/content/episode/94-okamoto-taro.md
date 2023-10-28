@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/94-e1mlv3r
 title: 岡本太郎の芸術
 description: 岡本太郎さんの「自分の中に毒を持て」を読んで、岡本太郎さんの芸術と生き方や過去の作品などについて話しました。

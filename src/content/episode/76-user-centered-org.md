@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/76-e1h5pj7
 title: ユーザー中心組織論
 description: 「ユーザー中心組織論」という本を読んで、みんながユーザーに向いたものづくりをする組織のあり方と、それを1メンバーがボトムアップで作る方法やカルチャーの作り方について話しました。

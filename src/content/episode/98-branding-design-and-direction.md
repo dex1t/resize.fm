@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/98-e1ntaeb
 title: ブランディングデザインとディレクション
 description: 「ブランディングデザインの教科書」という本を読んで、ブランディングデザインの考え方やプロセス、ディレクションの重要性、クライアントワークの心構えなどについて話しました。

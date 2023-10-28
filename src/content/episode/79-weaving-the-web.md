@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/79-WebWorld-Wide-Web-e1i41p4
 title: Webの創成—World Wide Webはいかにして生まれどこに向かうのか
 description: 「Webの創成」を読んで、World Wide Webができた歴史を振り返りつつ、Timが未来に描いたWebへの想いと最近のWeb3について話しました。

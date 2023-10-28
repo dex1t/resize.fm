@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/4-e-bike-enk9up
 title: e-bike
 description: VanMoofやCowboyなどe-bike(電動自転車)の話や、スマートホームとTeslaについて話しました。

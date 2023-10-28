@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/56-1-e1aqon6
 title: 1周年 —山の中のサウナより—
 description: resize.fmを始めて1周年ということで、過去のエピソードなどを振り返りつつ、今後やってみたいことや次の一年の抱負などを話しました。

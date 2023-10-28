@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/152-New-Arrivals-SubTopics-e29tj9o
 title: New Arrivals (SubTopics)
 description: iPhone 15やApple Watchの新機能、ゼルダのゲーム設計、音声系生成AI、Figma JambotとLottielab、商店建築のサウナ特集、今月のクリプト動向など最近気になったサブトピックスを話しました。

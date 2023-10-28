@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/14-SunsetCellars-eq8m7f
 title: SunsetCellarsとラベルデザイン
 description: 元山がお手伝いしているSunsetCellarsというワイナリーの話から、ラベルデザインや印刷デザインの難しいところ、面白いところなどを話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/9-Instagram-Shop-vs--Shopify-Shop-eol9cc
 title: Instagram Shop vs. Shopify Shop
 description: InstagramショップとShopify Shopアプリの対比や、サービスのデザインパターンについて話しました。

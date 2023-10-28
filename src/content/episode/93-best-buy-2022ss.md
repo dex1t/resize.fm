@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/93-BEST-BUY-2022SS-e1mb4j7
 title: BEST BUY 2022SS
 description: 2022年上半期で出口が買ってよかったガジェットや家電、雑貨を紹介しました。

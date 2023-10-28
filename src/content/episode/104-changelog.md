@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/104-CHANGELOG-SubTopics-e1prfvq
 title: CHANGELOG (SubTopics)
 description: Amazon Halo Rise、Starlink、LINE Seed、HIGのアップデート、グッドデザイン賞・ベスト100、今月のイベント情報やクリプト動向など、最近気になったサブトピックスを話しました。

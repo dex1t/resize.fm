@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/66-Pricing-e1drtru
 title: 新しい「価格」の教科書とPricingの未来
 description: 新しい「価格」の教科書を読んでダイナミックプライシングの話から、ブロックチェーンを絡めたプライシングの未来、フリーランスの価格付けなどについて話しました。

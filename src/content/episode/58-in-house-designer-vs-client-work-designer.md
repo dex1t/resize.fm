@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/58--vs-e1bbp7h
 title: 事業会社 vs 受託会社
 description: 事業会社（インハウスデザイナー） vs 受託会社（クライアントワーク）というテーマでそれぞれの良いところや、楽しみ方、求められるスキルなどについて話しました。

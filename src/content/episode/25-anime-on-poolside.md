@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/25--Sub-Topics-ev714m
 title: アニメとプールサイド (SubTopics)
 description: 最近見てるアニメ、ダークパターン、Quill、Poolside FMなど、サブトピックスをとりとめもなく話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/117-Power-Saving-SubTopics-e1u24c0
 title: Power Saving (SubTopics)
 description: Starlinkの価格改定、パーソナル食洗機、Tidbyt、メルカリのカラーチャート、エモーショナルUIデザイン、Netflixの新UI、今月のクリプト動向など最近気になったサブトピックスを話しました。

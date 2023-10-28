@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/38-SharePlay-e14s9lc
 title: SharePlay 大喜利
 description: 「WWDC21で発表された『SharePlay』どう使う？」という大喜利をしました。

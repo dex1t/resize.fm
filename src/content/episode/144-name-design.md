@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/144-e27mjfe
 title: なまえデザイン
 description: 「なまえデザイン」という本を読んで、なまえを考えるときに気をつけることや考えることをプロジェクトやチームの推進、ブランドデザインなどに関連させつつ話しました。

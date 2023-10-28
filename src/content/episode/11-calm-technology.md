@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/11-eouu05
 title: カーム・テクノロジー
 description: カーム・テクノロジーという本を読んで、通知などのサウンド・デザインやアンビエント・デザイン、本を読むきっかけになったGeneral Magicなどについて話しました。

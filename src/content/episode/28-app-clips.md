@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/28-App-Clips-e10md9j
 title: App Clipsの可能性
 description: 2020年のWWDC振り返り企画として、App Clipsの現状や活用方法としての可能性などについて話しました。

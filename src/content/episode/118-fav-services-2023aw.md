@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/2023AW-e1uchq2
 title: 最近気になったサービス 2023AW
 description: この秋冬で出口が気になったサービス5選を紹介しました。

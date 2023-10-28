@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/134-KOMEDA-Coffee-SubTopics-e24k344
 title: KOMEDA Coffee (SubTopics)
 description: Google I/O 2023、Pixel FoldとTablet、QrioとSESAME、PANTONEとDICの違い、注文住宅のセルフビルド、今月のクリプト動向やイベント情報など最近気になったサブトピックスを話しました。

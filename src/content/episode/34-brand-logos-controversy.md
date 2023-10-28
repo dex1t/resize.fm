@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/34--SubTopics-e137o95
 title: ロゴ論争 (SubTopics)
 description: 日米中のブランドロゴを比較した論争、iOS15の新機能に関する小ネタ、Amebaのデザインシステム、ついに復活したTurntable.fmなど、最近気になったサブトピックスを話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/150-Web3-e29b1v1
 title: Web3とトロイアの木馬
 description: Web3プロダクトの利用が一般層に広がる上で解決が必要な、技術や体験的な課題について話しました。

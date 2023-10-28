@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/116-ArtDesign-e1tmlaf
 title: ArtとDesign —アートとは何か？—
 description: アートの起源をベースに、アートとデザインの違いについて考え話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/81-Figma-Config-2022Google-IO-2022-e1imgh0
 title: Figma Config 2022とGoogle I/O 2022
 description: Figma Config 2022とGoogle I/O 2022を振り返りながら、気になったポイントやおもしろかったところをピックアップして話しました。

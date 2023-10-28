@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/139-Dev-Mode-SubTopics-e26bl9k
 title: Dev Mode (SubTopics)
 description: Config 2023で発表されたFigmaのアップデート、3Dデザインツール Bezel、Documenso、AI絵画アワード、今月のクリプト動向やイベント情報など最近気になったサブトピックスを話しました。

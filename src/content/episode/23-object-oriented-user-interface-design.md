@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/23-UI-euvpnr
 title: オブジェクト指向UIデザイン
 description: 「オブジェクト指向UIデザイン」という本を読んで、真の人間中心デザインとは何か？道具と人の関係性、デザイナーのアブダクションなどについて話しました。

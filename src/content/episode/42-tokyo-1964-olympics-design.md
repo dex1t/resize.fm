@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/42-TOKYO-1964-e16008t
 title: TOKYO 1964と日本の“デザイン”
 description: 東京オリンピック1964を軸に、その頃のデザイン的な背景やオリンピックのデザインについて自由研究して話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/87-Nothing-Special-SubTopics-e1kkmvd
 title: Nothing Special (SubTopics)
 description: Nothing phone (1) やpocket operator for Pixel、IE11のサポート終了、SmartHRのカラーチップ、NOT A HOTEL NFTや今月のクリプト動向など、最近気になったサブトピックスを話しました。

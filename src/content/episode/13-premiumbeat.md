@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/13-PremiumBeat-com-epp3n7
 title: PremiumBeat.comとサウンド・デザイン
 description: 元山が好きな有料ミュージック素材サイト「PremiumBeat.com」の話から、アプリのサウンドデザインの話をしました。

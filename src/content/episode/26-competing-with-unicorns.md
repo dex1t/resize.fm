@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/26-e1067ce
 title: ユニコーン企業のひみつ
 description: 「ユニコーン企業のひみつ―Spotifyで学んだソフトウェアづくりと働き方」という本を読んで、スタートアップのように強い開発組織どうやって作るのかについて話しました。

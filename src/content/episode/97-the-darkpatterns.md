@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/ep-e1nek8d
 title: ザ・ダークパターン
 description: 「ザ・ダークパターン」という本を読んで、ダークパターンの種類や過去の事例、どんなことに気をつけるべきかなどを話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/6-eo3i36
 title: ワーケーションその１
 description: 2020年、出口の引っ越しトラブルからワーケーションに旅立つまでの話をしました。

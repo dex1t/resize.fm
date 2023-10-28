@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/95-Future-Products-SubTopics-e1mv42s
 title: Future Products (SubTopics)
 description: Shopify EditionsやHydrogen、Spotify Tickets、THE LINE、LG有機ELテレビ、NOT A HOTEL PRODUCTS、今月のクリプト動向など、最近気になったサブトピックスを話しました。

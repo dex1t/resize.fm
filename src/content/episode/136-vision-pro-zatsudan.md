@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/136-Vision-Pro-e25fc5s
 title: Vision Proと雑談ルーレット
 description: Apple Vision Proの第一印象とWWDC 2023 キーノートの振り返りからの雑談ルーレットを回してみました。

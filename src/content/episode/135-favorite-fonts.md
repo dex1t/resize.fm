@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/135-e24tefk
 title: 好きなフォントの話
 description: 好きでよく使ってしまいがちなフォントを紹介しつつ、フォントにまつわる小話やWebにおけるタイポグラフィの話をしました。

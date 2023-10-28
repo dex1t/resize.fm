@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/The-Liquidity-Wars-on-Web3-e1d6go8
 title: The Liquidity Wars on Web3
 description: クリプトの情報収集や、DeFi(分散型金融)における流動性獲得戦争を紹介しつつ、Web3サービスの特徴や面白さについて話しました。

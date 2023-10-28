@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/132-UI-e23qgd0
 title: 縁の下のUIデザイン
 description: 「縁の下のUIデザイン」を読んで、著者の池田さんのことを思い浮かべつつ、細かくて地味だけど大切なデザインについて話しました。

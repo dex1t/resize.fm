@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/55-e1acrgk
 title: 行動経済学の逆襲
 description: 「行動経済学の逆襲」を読んで、合理的ではない行動をしてしまう人間の心理とその原則、サービスやデザインとの関係性などについて話しました。

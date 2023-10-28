@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/142-CLAN-e275jfj
 title: CLANとこれからの働き方
 description: 新しい組織のカタチを必要性から目指したCLANという会社とこれまで、これからの働き方について話しました。

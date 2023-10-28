@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/123-e204gnm
 title: サウナイキタイと持続可能なサービスデザイン
 description: サウナポータル「サウナイキタイ」から学ぶサービスデザインやブランディング、コミュニティ、小さな経済性をつくることについて話しました。

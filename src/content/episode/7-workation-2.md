@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/7-eo37tj
 title: ワーケーションその２
 description: 2020年、出口のワーケーションからの帰還、多拠点生活サービス、トロピコについて話をしました。

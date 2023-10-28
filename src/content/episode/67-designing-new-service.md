@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/67-e1e5696
 title: ゼロイチのデザイン
 description: 新規サービスの立ち上げ時に考えていることやフレームワークについて、いただいたお便りに答える形で話しました。

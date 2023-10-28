@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/50-About-Face3-e18op2j
 title: About Face3 — シナリオとプロトタイピング
 description: Part1完結編「About Face 3」のチャプター6〜7を読んで、構造化シナリオ法を中心としたシナリオライティングや、プロトタイピングのやり方のアレコレなどについて話しました。

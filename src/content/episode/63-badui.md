@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/63--BADUI-e1csvkn
 title: 失敗から学ぶユーザーインターフェース —楽しいBADUIの世界—
 description: 失敗から学ぶユーザーインターフェースを紹介しつつ、BADUIのあるある話やどういうことに気を使うべきなのかなどを話しました。

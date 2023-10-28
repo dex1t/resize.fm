@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/59-Web3-0-e1bl2go
 title: Web3ってなんだろう
 description: 2021年の仮想通貨ムーブメントを振り返りつつ、2022年に中心になりそうなWeb3やDAO(自律分散型組織)について話しました。

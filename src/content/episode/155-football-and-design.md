@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/155-e2aofnj
 title: 現代サッカーとブランディング
 description: ユベントスやプレミアリーグなどサッカーにおけるブランディング事例や、現代サッカーにおける強さとブランディングの関係性、最近のサッカービジネスについて話しました。

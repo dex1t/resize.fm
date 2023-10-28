@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/106-UI-e1qi7pq
 title: ゲームUIデザイン
 description: お便り紹介からリクエストにお答えしつつ、ゲームUIデザインの本を読んでプロダクト開発におけるデザイナーとゲーム開発におけるデザイナーの違いについて考えて話してみました。

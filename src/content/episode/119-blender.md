@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/119-Blender-e1unfaq
 title: Blender –グラフィックデザイナーの強力なツール–
 description: 1年ぐらいコツコツとBlenderをやってきて、3DCGを使った表現の話や良いところ、期待したいところ、初めて学ぶときのコツなどを話しました。

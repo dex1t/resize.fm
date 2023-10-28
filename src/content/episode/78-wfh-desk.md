@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/78-WFH-Desk-SubTopics-e1hqesp
 title: WFH Desk (SubTopics)
 description: Mac StudioとPREDUCTS、LGの縦型モニター、Zenly、今月のイベント情報やクリプト動向など、最近気になったサブトピックスを話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/92-e1m309a
 title: ものをつくるときに気をつけていること
 description: ほぼ日が配信しているポッドキャスト「ものをつくるときに気をつけていること」の桜井政博さんの回を取り上げつつ、モノをつくるときに意識していることなどを話しました。

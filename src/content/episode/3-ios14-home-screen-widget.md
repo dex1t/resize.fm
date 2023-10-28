@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/3-iOS14-Home-ScreenWidget-enfrbe
 title: iOS14 Home ScreenとWidget
 description: iOS14で追加されたHomeScreenの非表示やAppライブラリ、おすすめのWidgetなどについて話しました。

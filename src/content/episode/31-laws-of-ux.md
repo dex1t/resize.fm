@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/31-UX-e1235f8
 title: UXデザインの法則
 description: デジタルバンク、チャレンジャーバンクの話や「UXデザインの法則」というデザイン×心理学というテーマの本の感想とともに、デザイナーの責任などについても話しました。

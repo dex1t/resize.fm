@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/121-AI-Products-SubTopics-e1va9k8
 title: AI Products (SubTopics)
 description: GeniusやGalileo AIなどUIデザイン系AIプロダクト、BudouX、Vercel Previews、Penpot、今月のクリプト動向やイベント情報など最近気になったサブトピックスを話しました。

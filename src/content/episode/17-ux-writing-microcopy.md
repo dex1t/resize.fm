@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/17-UX-eravpk
 title: UXライティングの教科書
 description: 「UXライティングの教科書」という本を読んで、ユーザーのモチベーションを上げるマイクロコピーやキャンセルのキャンセル問題などについて話しました。

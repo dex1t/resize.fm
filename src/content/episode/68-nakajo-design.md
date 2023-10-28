@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/68-e1egqbl
 title: 仲條正義さんとデザイン
 description: グラフィックデザイナー仲條正義さんの作品集や口述自叙伝「僕とデザイン」を読んで、仲條さんのデザインに対する姿勢や感じたことなどを話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/57-SaaSCXO3-e1b117t
 title: とあるSaaSスタートアップCXOの3年間
 description: SaaSスタートアップでCXOを務めた3年間について、何を考えてどんなことをやったのか、リアルな振り返りをしました。

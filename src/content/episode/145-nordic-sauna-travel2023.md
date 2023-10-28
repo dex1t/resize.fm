@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/145-2023-e27ve96
 title: 北欧サウナ旅2023
 description: フィンランドとスウェーデンを8泊で11サウナを周った出口のサウナ旅を紹介しつつ、日本とフィンランドのサウナ文化の違いや、サウナ室のデザインについて話しました。

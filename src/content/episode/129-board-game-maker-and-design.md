@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/129-e22nbhh
 title: ボードゲームのデザインとスーパーひげクラブ
 description: デザイナーの吉竹 遼さん @ryo_pan をゲストにお迎えして、ボードゲームのデザインと元山とやっているスーパーひげクラブ @SuperHigeClub というゲームメーカーユニットについて考えてきたこと、活動してきたことを話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/45-About-Face-3--Goal-Directed-Design-e174oj5
 title: About Face 3 — Goal Directed Design
 description: 「About Face 3」のチャプター1〜3を読んで、ゴールダイレクテッドデザインの考え方について話しました。

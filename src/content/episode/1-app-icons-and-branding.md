@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/1--Big-Sur--Google-Workspace--Facebook-en1hmj
 title: アイコンとブランディング(Big Sur, Google Workspace, Facebook)
 description: 最近あったアプリアイコンの変更を中心に、ロゴやブランディングリニューアルの難しさについて話しました。

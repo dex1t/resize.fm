@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/143--SubTopics-e27f45e
 title: 旅と映画と音楽と (SubTopics)
 description: プライムデーで買ったモノ、Insta360やBeatsの新製品、e-bikeメーカーVanMoofの破産、Monotypeのフォントワークス買収、ポケモンスリープ、今月のクリプト動向やイベント情報など最近気になったサブトピックスを話しました。

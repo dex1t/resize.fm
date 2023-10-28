@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/49-Web3-0composable-e18f77f
 title: Web3.0時代の“composable”なサービスづくり
 description: ブロックチェーンを使ったサービス設計に求められる“composability”という考え方について、DeFiやLoot型NFTを紹介しつつ話しました。

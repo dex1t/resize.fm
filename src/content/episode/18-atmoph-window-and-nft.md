@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/18-Atmoph-WindowNFT-es5lkn
 title: Atmoph WindowとNFT
 description: 窓型スマートディスプレイ「Atmoph Window 2」を買ってみた話と、NFT (Non-fungible token)の話から、デジタルコンテンツの今後を妄想しました。

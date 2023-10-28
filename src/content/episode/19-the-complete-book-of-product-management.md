@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/19-esh0cc
 title: プロダクトマネジメントのすべて
 description: 「プロダクトマネジメントのすべて」を読んで、プロダクトマネージャーとして考えたり、学んでおかないといけないことや、B2Bプロダクトの大変さなどについて話しました。

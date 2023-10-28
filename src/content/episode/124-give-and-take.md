@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/124-GiveTake-e20hdcl
 title: Give&Takeとサービスデザイン
 description: 『GIVE & TAKE 「与える人」こそ成功する時代』を読んで、ギバーとテイカーの特徴とそれらを活かしたサービスデザインなどについて話しました。

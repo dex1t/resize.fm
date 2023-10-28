@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/86-e1k96ih
 title: デザインの方法論「モノからモノが生まれる」ブルーノ・ムナーリ著
 description: ブルーノ・ムナーリの「モノからモノが生まれる」という本を読んで、デザインの方法論や日常に潜むデザインの観察などについて話しました。

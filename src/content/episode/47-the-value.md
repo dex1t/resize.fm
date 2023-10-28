@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/47-The-Value-SubTopics-e17oc26
 title: The Value (SubTopics)
 description: Appleの新製品発表イベント、FigJamのアップデート、CEDEC2021で気になった講演、9月の仮想通貨動向など、最近気になったサブトピックスを話しました。

@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/70-e1f5kgg
 title: リフォーム日記 —プランニング編—
 description: 中古マンションを買った出口が、リフォーム会社を探し出しプランニングするまでに使ったサービスや苦労したこと、仕事との共通点などを話しました。

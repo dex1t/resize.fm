@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/113-Lookback-2022-SubTopics-e1srchn
 title: Lookback 2022 (SubTopics)
 description: モバイルモーションキャプチャーmocopi、パナソニック自動計量炊飯器、CleanShot X、iA Presenter、Ledger Staxや今月のクリプト動向など、最近気になったサブトピックスを話しました。

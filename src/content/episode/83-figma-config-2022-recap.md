@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/83-Figma-Config-2022-Recap-e1jbllv
 title: Figma Config 2022 Recap
 description: Figma Config 2022のアーカイブ動画を見返して、出口と元山それぞれが気になったセッションを紹介しました。

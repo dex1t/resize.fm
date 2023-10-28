@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/20-etg3pg
 title: 問いのデザイン
 description: 「問いのデザイン」を読んで、問題のリフレーミング、アクティングアウト、プロトタイピングによる創造的対話などについて話しました。

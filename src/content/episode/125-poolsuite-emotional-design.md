@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://podcasters.spotify.com/pod/show/resize/episodes/125-Poolsuite-e20tuso
 title: Poolsuiteとエモーショナルデザイン
 description: 夏の陽気な気分を楽しむオンラインラジオ局「Poolside.fm」を振り返りつつ、D2Cブランド「Vacation」や「Poolsuite」へのリブランド、Web3への進出、それらから見る一貫したエモーショナルデザインについて話しました。

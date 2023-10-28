@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/112-e1sjsit
 title: アイデアと「しらんがな」の姿勢
 description: 「アイデアとかデザインとか」という本を読んで、アイデアとの向き合い方、物理プロダクトをつくる上で大切なこと、見積もりの大切さなどについて話しました。

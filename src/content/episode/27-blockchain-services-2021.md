@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/27-3-e10c0or
 title: 3年ぶりにみるブロックチェーン・サービス
 description: 2018年と比較した仮想通貨やブロックチェーン界隈の変化、Binance、ステーブルコイン、DeFi・NFT・Web3.0のサービス事例、DAO (自律分散型組織) などについて話しました。

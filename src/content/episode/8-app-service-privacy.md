@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/8-eoc0uj
 title: アプリやサービスのプライバシー
 description: Smoozで話題になった問題を中心に、アプリやサービスの開発・提供者としてプライバシー・ポリシーや個人情報の扱いについて、どう考えた方が良いのかについて話しました。

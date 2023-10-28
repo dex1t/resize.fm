@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/71-e1fgnkr
 title: おやつ時間を届けるサービス「スナックミー」
 description: 元山が使っていてオススメしたいサービス「スナックミー」に詰まったデザイン的な工夫や、サービスとして提供したい価値がどんなふうに表現されているのかを話しました。

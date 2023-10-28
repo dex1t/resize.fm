@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/2-en5dej
 title: サウナイキタイ
 description: サウナ検索サイト「サウナイキタイ」のサービス設計、グッズ、サウナの良さについて話しました。

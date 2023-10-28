@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/54-e1a0237
 title: メタバース大喜利
 description: Facebook社の改名、ザッカーバーグの新構想について話しつつ、「2050年のメタバース、どんなサービスが流行ってる？」という大喜利をしました。

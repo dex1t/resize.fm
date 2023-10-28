@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/85-WWDC22-Recap-e1jvltc
 title: WWDC22 Recap
 description: Apple WWDC22のキーノートやデザイン系セッションを振り返りつつ、SFフォントやHIGのアップデートなどについて話しました。

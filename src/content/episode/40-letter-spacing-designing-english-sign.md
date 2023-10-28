@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/40-e15ejoe
 title: レタースペーシングと英文サインのデザイン
 description: 「レタースペーシング」と「英文サインのデザイン」という本を読んで文字間調整のコツや英文表記をするときのデザイン的な注意点などについて話しました。

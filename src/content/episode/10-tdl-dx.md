@@ -1,5 +1,4 @@
 ---
-layout: Episode
 src: https://anchor.fm/resize/episodes/10-eourmk
 title: 東京ディズニーランドアプリ
 description: コロナ禍の東京ディズニーランドに行って、公式アプリを使ってみた話をしました。
