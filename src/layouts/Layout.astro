@@ -72,52 +72,54 @@ const ogpImageUrl = Astro.props.epSlug
     <footer>
       {Astro.props.richFooter ? <RichFooter /> : <Copyright />}
     </footer>
-  </body><style is:global lang="scss">
-    html,
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
-        "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium",
-        "Yu Gothic", Verdana, Meiryo, sans-serif;
-      line-height: 1.4;
-      color: $color-black;
-    }
-
-    body {
-      background-color: $color-palegray;
-      background-image: url("/bg/header.png"), url("/bg/grad.png");
-      background-position:
-        top center,
-        top center;
-      background-size:
-        1200px auto,
-        1px auto;
-      background-repeat: no-repeat, repeat-x;
-      text-align: center;
-
-      @include mobile {
-        background-size:
-          800px auto,
-          1px auto;
-      }
-    }
-
-    a {
-      color: $color-blue;
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-
-    h1 {
-      font-size: 2em;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-  </style>
+  </body>
 </html>
+
+<style is:global lang="scss">
+  html,
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
+      "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium",
+      "Yu Gothic", Verdana, Meiryo, sans-serif;
+    line-height: 1.4;
+    color: $color-black;
+  }
+
+  body {
+    background-color: $color-palegray;
+    background-image: url("/bg/header.png"), url("/bg/grad.png");
+    background-position:
+      top center,
+      top center;
+    background-size:
+      1200px auto,
+      1px auto;
+    background-repeat: no-repeat, repeat-x;
+    text-align: center;
+
+    @include mobile {
+      background-size:
+        800px auto,
+        1px auto;
+    }
+  }
+
+  a {
+    color: $color-blue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+</style>
