@@ -1,5 +1,5 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/159-3rd-Anniversary-e2bllec
 title: 3rd Anniversary
 description: resize.fm 3周年を迎えて3年目のことを振り返りつつ、次の一年でチャレンジしたいことなどについて話しました。
 date: 2023年11月17日（金）
