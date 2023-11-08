@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/158-e2bll49
 title: もし転生するなら…
 description: いただいたお便りをきっかけに、これまでとは全く違う異業種に転生するとしたら何がしたいかを雑談しました。
 date: 2023年11月10日（金）
-time: 分秒
+time: 62分11秒
 ---
 
 - オープニングトーク: 舞台に行った
