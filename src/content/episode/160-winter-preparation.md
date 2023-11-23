@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/160--SubTopics-e2caj5t
 title: 冬支度 (SubTopics)
 description: ナウシカやゼルダの実写版、FC東京のリブランド、メルカリ ハロ、しずかなインターネット、直近のイベント情報など最近気になったサブトピックスを話しました。
 date: 2023年11月24日（金）
-time: 分秒
+time: 58分03秒
 ---
 
 - オープニングトーク: スリッパと加湿と保湿
