@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/162-e2cv4vv
 title: デザイントークンの現在地
 description: 「デザイントークンのつくりかた」という本を読んで、デザイントークンを設計する勘所や難しさ、デザインシステム周辺ツールの対応など2023年末時点の現状について話しました。
 date: 2023年12月8日（金）
-time: 分秒
+time: 82分56秒
 ---
 
 - オープニングトーク: オリジナルBGMを作りたい
