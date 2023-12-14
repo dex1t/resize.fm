@@ -3,7 +3,7 @@ src: https://podcasters.spotify.com/pod/show/resize/episodes/163-UX-e2d8rdp
 title: 音声UX
 description: 「音声UX」という本を読んでLLM／MMM AI時代の音声UI・UXの考え方や、サービスの期待値調整などについて話しました。
 date: 2023年12月15日（金）
-time: 82分56秒
+time: 65分35秒
 ---
 
 - オープニングトーク: チケットが取れない！
