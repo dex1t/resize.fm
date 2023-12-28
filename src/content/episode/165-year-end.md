@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/165-Year-End-SubTopics-e2do9go
 title: Year End (SubTopics)
 description: VercelのジェネラティブUIサービス「v0」、Stream Diffusion、ノルウェーの気になるサウナ、メルカリ「ウチの実家」、ボタンは名詞か動詞か、など最近気になったサブトピックスを話しました。
 date: 2023年12月29日（金）
-time: 分秒
+time: 76分05秒
 ---
 
 - オープニングトーク: クリスマスなにしてた？
