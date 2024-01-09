@@ -6,6 +6,7 @@ date: 2024年1月12日（金）
 time: 分秒
 ---
 
+- オープニングトーク: 年末年始のコンテンツ
 - [#72 クラフトビネガードリンク「RINDA」のデザイン（ゲスト：倉光さん） | resize.fm](https://resize.fm/ep/72-vinegar-drink-rinda/)
 - [RINDA (リンダ) - 奈良生まれのスパイスビネガードリンク](https://rinda.today/)
 - [RINDA / スパイスビネガードリンク(@rinda.today) • Instagram写真と動画](https://www.instagram.com/rinda.today/)
