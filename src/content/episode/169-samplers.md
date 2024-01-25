@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/169-Samplers-SubTopics-e2euktf
 title: Samplers (SubTopics)
 description: ヤマハSEQTRAK、Atmoph Window Yo、ホロタイル、CSSと文字組み、Spline、ビットコインETFなど最近気になったサブトピックスを話しました。
 date: 2024年1月26日（金）
-time: 分秒
+time: 70分21秒
 ---
 
 - オープニングトーク: ひさびさの革靴
