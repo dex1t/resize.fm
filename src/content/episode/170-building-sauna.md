@@ -1,12 +1,14 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/170-e2f7q2e
 title: サウナをつくろう
 description: 「サウナをつくろう」という本を紹介しつつ、フィンランドやサウナ文化の歴史、スモークサウナの気持ちよさ、サウナストーンの積み方に合わせたロウリュ、出口家サウナの改良したい点などについて話しました。
 date: 2024年2月2日（金）
-time: 分秒
+time: 79分58秒
 ---
 
 - オープニングトーク: 最近ハマってるコンテンツ
+    - [日曜劇場『VIVANT』｜TBSテレビ](https://www.tbs.co.jp/VIVANT_tbs/)
+    - [日曜劇場『日本沈没ー希望のひとー』｜TBSテレビ](https://www.tbs.co.jp/nihon_chinbotsu_tbs/)
     - [高野さんを怒らせたい。【きしたかの】 - YouTube](https://www.youtube.com/channel/UCWyynpZD7CkjZqQ7ZJGGjfg?view_as=subscriber)
     - [カミナリの記録映像【公式】 - YouTube](https://www.youtube.com/channel/UCVpsGgPJIIk8DdmigZrnecw)
 - [サウナをつくろう - 建築資料研究社 BOOKS & MAGAZINES](https://www.kskpub.com/book/b478688.html)
