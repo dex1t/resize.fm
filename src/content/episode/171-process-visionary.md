@@ -1,9 +1,9 @@
 ---
-src: https://podcasters.spotify.com/pod/show/resize/episodes/170-e2f7q2e
-title: サウナをつくろう
-description: 「サウナをつくろう」という本を紹介しつつ、フィンランドやサウナ文化の歴史、スモークサウナの気持ちよさ、サウナストーンの積み方に合わせたロウリュ、出口家サウナの改良したい点などについて話しました。
-date: 2024年2月2日（金）
-time: 79分58秒
+src: https://podcasters.spotify.com/pod/show/resize/episodes/171-Process-Visionary-e2fh2as
+title: Process Visionary
+description: 「Process Visionary」という本を読んで、ビジネスアナリストという職種についてや似たような役回りをしていることなどについて話しました。
+date: 2024年2月9日（金）
+time: 82分03秒
 ---
 
 - オープニングトーク: お気に入りのおやつ
