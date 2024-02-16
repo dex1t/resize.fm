@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/172-e2friil
 title: 期待値のデザイン
 description: クライアントワークにおける期待値調整と失敗談、支点・力点・作用点、委任契約と準委任契約の使い分け、練度の高い発注者など「期待」にまつわるあれこれを雑談をしました。
 date: 2024年2月16日（金）
-time: 分秒
+time: 84分40秒
 ---
 
 - オープニングトーク: エアカラオケ
