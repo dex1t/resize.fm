@@ -3,7 +3,7 @@ src: https://podcasters.spotify.com/pod/show/resize/episodes/173-BONIQ-e2g2tkt
 title: BONIQとハード／ソフトのデザイン
 description: BONIQを使った奥深い低温調理の話、ハードウェアとソフトウェアの両輪でビジネスを考える重要性などについて話ました。
 date: 2024年2月23日（金）
-time: 84分40秒
+time: 81分24秒
 ---
 
 - オープニングトーク: オードリーのオールナイトニッポン in 東京ドーム
