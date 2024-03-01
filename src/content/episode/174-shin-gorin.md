@@ -1,9 +1,9 @@
 ---
-src: https://podcasters.spotify.com/pod/show/resize/episodes/174--SubTopics-e2ge6ga
+src: https://podcasters.spotify.com/pod/show/resize/episodes/174--SubTopics-e2gfn07
 title: シン・五輪 (SubTopics)
 description: Vision Proのカームテクノロジー的アプリ、Arc Searchとハプティクス、OpenAI Soraとフェイク動画、Notionの最近、37signalsの新しいソフトウェアブランドなど最近気になったサブトピックスを話しました。
 date: 2024年3月1日（金）
-time: 88分01秒
+time: 81分02秒
 ---
 
 - オープニングトーク: パリ五輪とeスポーツ
