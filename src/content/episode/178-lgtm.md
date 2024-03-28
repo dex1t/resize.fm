@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/178-LGTM-SubTopics-e2hm5rr
 title: LGTM (SubTopics)
 description: LottieFilesのUIアニメーション作成ツール、孤独死対策としてのスマートリング、空気循環を考えたサウナ小屋やストーブ、イワタニのカセットコンロ、ポケモンカードアプリなど最近気になったサブトピックスを話しました。
 date: 2024年3月29日（金）
-time: 分秒
+time: 69分49秒
 ---
 
 - オープニングトーク: M3 MacBook Airを買った
