@@ -1,5 +1,5 @@
 ---
-src: https://podcasters.spotify.com/pod/show/resize/episodes/180-e2i9p9o
+src: https://podcasters.spotify.com/pod/show/resize/episodes/180-e2i9qjo
 title: エフェクチュエーション
 description: エフェクチュエーションと呼ばれる不確実性とうまく付き合うための思考方法を紹介しつつ、新規事業などゼロイチのモノづくりで必要な心構えについて話しました。
 date: 2024年4月12日（金）
