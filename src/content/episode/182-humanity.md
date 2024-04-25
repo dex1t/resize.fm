@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/183-Humanity-SubTopics-e2isr33
 title: Humanity (SubTopics)
 description: Adobe Premiereの動画生成AI、Stable Audioなど作曲AI、CotomoとAIキャバクラ、3Dプリンター住宅、名古屋めしガイド、デザインと営業、最近のクリプトなど最近気になったサブトピックスを話しました。
-date: 2024年 月 日（金）
-time: 分秒
+date: 2024年4月26日（金）
+time: 91分36秒
 ---
 
 - オープニングトーク: 懐かしのゲーム
