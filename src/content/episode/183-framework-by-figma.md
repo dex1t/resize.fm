@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/183-Framework-by-Figma-2024-e2jes2n
 title: Framework by Figma 2024
 description: Figmaによるデザインシステムイベント「Framework」で発表されたTypography VariablesやCode Connectなどの紹介や所感、来月開催のConfig 2024で発表されそうな新機能の予想、今後のFigmaへの期待などを話しました。
 date: 2024年5月10日（金）
-time: 分秒
+time: 102分17秒
 ---
 
 - オープニングトーク: 最近の癒やし
