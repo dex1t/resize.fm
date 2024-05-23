@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/185-e2k0rbj
 title: デザインシステムの歴史と未来
 description: 近年「デザインシステム」と呼ばれるものの源流をたどりつつ、UIデザインツールやWebフロントエンド技術の変遷や昔話をしながら、デザインシステムの今後について話しました。
 date: 2024年5月24日（金）
-time: 分秒
+time: 103分54秒
 ---
 
 - オープニングトーク: 「一番好きな映画は？」と聞かれたら
