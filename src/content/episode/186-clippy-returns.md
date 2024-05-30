@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/186-Clippy-Returns-SubTopics-e2kaf8r
 title: Clippy Returns (SubTopics)
 description: 各社のAIアシスタント動向、トヨタのカーナビアプリ、2000年代のインターネット、カード型のAirTag、NOT A HOTEL瀬戸内、アニメーション付きUIライブラリ、イーサETFなど最近気になったサブトピックスを話しました。
 date: 2024年5月31日（金）
-time: 分秒
+time: 56分57秒
 ---
 
 - オープニングトーク: Google I/O
@@ -11,7 +11,6 @@ time: 分秒
 - [ジャック・ドーシー、Blueskyからの離脱は「Twitterと同じ過ちを繰り返しているから」とインタビューで述べる | テクノエッジ TechnoEdge](https://www.techno-edge.net/article/2024/05/13/3340.html)
 - [Grok AI 日本](https://grok-ai.app/jp/%E6%97%A5%E6%9C%AC/)
 - [進化するカーナビアプリ　moviLink(モビリンク)](https://toyotaconnected.co.jp/movilink/)
-- [にじさんじ・月ノ美兎さんの配信でも話題となった『さんぽ神』がiPhoneアプリに。SNS共有やお題カスタムなどデジタルならではの機能も | ゲーム・エンタメ最新情報のファミ通.com](https://www.famitsu.com/news/202312/09327307.html)
 - [古のインターネット探訪（@memoriesofhp）さん / X](https://x.com/memoriesofhp?t=006OB81c_t18686uMqrpMA)
 - [ワイヤレス充電できるAirTag互換のカード型紛失防止タグ　本体は防水構造 | マイナビニュース](https://news.mynavi.jp/article/20240517-2947808/)
 - [Best Smart Wallet with built-in Power Bank | Woolet](https://www.woolet.co/)
