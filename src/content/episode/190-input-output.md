@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/190-IO-SubTopics-e2lcjpp
 title: I/O (SubTopics)
 description: Claude Artifactsと対話型AIの体験、AirPods Proのヘッドトラッキング、ストックオプションの難しさ、ポスター型照明と包丁、レトロゲームとiPodの思い出、DMMビットコイン不正流出など最近気になったサブトピックスを話しました。
 date: 2024年6月28日（金）
-time: 分秒
+time: 87分23秒
 ---
 
 - オープニングトーク: 梅雨の終わり?
