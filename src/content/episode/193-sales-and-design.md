@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/193-e2m6ugd
 title: デザインと営業
 description: 「営業の科学」という本を紹介しつつ、デザイン会社における営業活動や、より良い期待値のデザイン、認知的不協和を解消するためのテクニックなどを話しました。
 date: 2024年7月19日（金）
-time: 分秒
+time: 129分57秒
 ---
 
 - [営業の科学　セールスにはびこるムダな努力・根拠なき指導を一掃する - かんき出版](https://kanki-pub.co.jp/pub/book/9784761277222/)
