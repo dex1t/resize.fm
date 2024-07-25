@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/194-Chill--Thrill-SubTopics-e2mf1qm
 title: Chill & Thrill (SubTopics)
 description: ABOUT FACE 4th日本語版、日本銀行券の新デザイン、家庭用電気サウナストーブ、家具冷蔵庫、行方不明展など最近気になったサブトピックスを話しました。
 date: 2024年7月26日（金）
-time: 分秒
+time: 71分32秒
 ---
 
 - オープニングトーク: 梅雨明け
