@@ -3,7 +3,7 @@ src: https://podcasters.spotify.com/pod/show/resize/episodes/197-e2n86ik
 title: 色彩と配色
 description: 色彩に関する基礎知識から、RGBやHSBといった表色方法について、配色の仕方やおすすめの色の決め方などについて話しました。
 date: 2024年8月16日（金）
-time: 95分36秒
+time: 94分52秒
 ---
 
 - オープニングトーク: オリンピックと地震
