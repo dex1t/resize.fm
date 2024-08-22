@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/198-About-Face-4-e2ngnr5
 title: About Face 4 ― ゴールダイレクテッドデザインのおさらい
 description: 「About Face 4」日本語版の発売に合わせて、ゴールダイレクテッドデザインのおさらい、About Face 3との差分、原著が出た10年前からの時代変化などについて話しました。
 date: 2024年8月23日（金）
-time: 分秒
+time: 104分56秒
 ---
 
 - オープニングトーク: 最近何食べてる？
