@@ -1,6 +1,6 @@
 ---
 src: 
-title: Future Artifacts(SubTopics)
+title: Future Artifacts (SubTopics)
 description: ニンテンドーミュージアム、オープンイヤー型オーバーヘッドヘッドフォン、ARノートパソコン、プレハブ型タワーサウナとサバス、Perplexityと広告、Perfume Disco-Graphyなど最近気になったサブトピックスを話しました。
 date: 2024年8月30日（金）
 time: 分秒
