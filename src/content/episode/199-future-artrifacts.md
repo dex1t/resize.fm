@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/199-Future-Artifacts-SubTopics-e2nm8lv
 title: Future Artifacts (SubTopics)
 description: ニンテンドーミュージアム、オープンイヤー型オーバーヘッドヘッドフォン、ARノートパソコン、プレハブ型タワーサウナとサバス、Perplexityと広告、Perfume Disco-Graphyなど最近気になったサブトピックスを話しました。
 date: 2024年8月30日（金）
-time: 分秒
+time: 66分16秒
 ---
 
 - オープニングトーク: [ニンテンドーミュージアム | 任天堂](https://museum.nintendo.com/index.html)
