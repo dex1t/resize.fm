@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/201-e2oahok
 title: デザインシステムの育て方
 description: 「デザインシステムの育て方」という本を読んで、デザインシステムを育てはじめるときのコツ、組織の設計やガバナンス、チームに必要な人材、目標設定、予算などについて話しました。
 date: 2024年9月13日（金）
-time: 分秒
+time: 123分37秒
 ---
 
 - オープニングトーク: ゴミ拾いと出会い
