@@ -1,9 +1,9 @@
 ---
-src: 
+src: https://podcasters.spotify.com/pod/show/resize/episodes/203-Photo-Memories-SubTopics-e2otiis
 title: Photo Memories (SubTopics)
 description: バリアブルフォントFlux、ジョニー・アイブの近況、ブランドとメタ一貫性、味の素の電気調味料、株式のセカンダリー取引など最近気になったサブトピックスを話しました。
 date: 2024年9月27日（金）
-time: 分秒
+time: 66分56秒
 ---
 
 - オープニングトーク: Apple新製品とiOS18
